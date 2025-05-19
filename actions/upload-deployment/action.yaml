@@ -1,0 +1,29 @@
+name: "Create Nexus Staging Repository"
+description: "Creates a new staging Nexus repository."
+author: TheMrMilchmann
+inputs:
+  username:
+    description: "The username to use to authenticate against the Central Publisher API."
+    required: true
+  password:
+    description: "The password to use to authenticate against the Central Publisher API."
+    required: true
+  base-url:
+    description: "The base URL of the Central Publisher API."
+    required: false
+    default: "https://central.sonatype.com/"
+  name:
+    description: "An optional name for the deployment."
+    required: false
+  publishingType:
+    description: "Specifies whether the deployment should proceed automatically after validation succeeded. One of: 'user-managed', 'automatic'"
+    required: true
+outputs:
+  deployment-id:
+    description: "The ID of the newly created deployment."
+runs:
+  using: node20
+  main: "../dist/upload-deployment/index.js"
+branding:
+  icon: upload
+  color: orange
