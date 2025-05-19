@@ -4,12 +4,13 @@
   "private": true,
   "description": "A set of GitHub Actions to automate publishing to Maven Central (via the Publisher API).",
   "scripts": {
+    "build:generate": "yarn openapi-typescript third-party/central-publisher-api.json -o src/lib/central-publisher-api/v1.d.ts",
     "build:preprocess": "tsc",
     "build:close": "ncc build lib/actions/action-close-staging-repo.js -o dist/close-staging-repo",
     "build:create": "ncc build lib/actions/action-create-staging-repo.js -o dist/create-staging-repo",
     "build:drop": "ncc build lib/actions/action-drop-staging-repo.js -o dist/drop-staging-repo",
     "build:release": "ncc build lib/actions/action-release-staging-repo.js -o dist/release-staging-repo",
-    "build": "tsc && yarn build:close & yarn build:create & yarn build:drop & yarn build:release",
+    "build": "yarn build:generate && yarn build:preprocess && yarn build:close & yarn build:create & yarn build:drop & yarn build:release",
     "test": "jest"
   },
   "repository": {
@@ -28,7 +29,8 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.10.1",
-    "node-fetch": "^3.0.0"
+    "node-fetch": "^3.0.0",
+    "openapi-fetch": "^0.14.0"
   },
   "devDependencies": {
     "@types/jest": "^29.5.13",
@@ -36,6 +38,7 @@
     "@vercel/ncc": "^0.38.1",
     "jest": "^29.7.0",
     "jest-fetch-mock": "^3.0.3",
+    "openapi-typescript": "^7.8.0",
     "ts-jest": "^29.2.5",
     "ts-node": "^10.9.2",
     "typescript": "^5.5.4"

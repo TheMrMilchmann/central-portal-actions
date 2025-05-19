@@ -1,5 +1,5 @@
-name: "Create Nexus Staging Repository"
-description: "Creates a new staging Nexus repository."
+name: "Upload Deployment"
+description: "Creates a new deployment by uploading a bundle."
 author: TheMrMilchmann
 inputs:
   username:
@@ -12,12 +12,19 @@ inputs:
     description: "The base URL of the Central Publisher API."
     required: false
     default: "https://central.sonatype.com/"
+  bundle:
+    description: "The path to the deployment bundle."
+    required: true
   name:
     description: "An optional name for the deployment."
     required: false
-  publishingType:
+  publishing-type:
     description: "Specifies whether the deployment should proceed automatically after validation succeeded. One of: 'user-managed', 'automatic'"
     required: true
+  validation-timeout:
+    description: "The time to wait for validation of the deployment before failing."
+    required: false
+    default: "600"
 outputs:
   deployment-id:
     description: "The ID of the newly created deployment."
