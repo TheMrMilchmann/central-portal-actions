@@ -22,7 +22,7 @@ inputs:
     description: "Specifies whether the deployment should proceed automatically after validation succeeded. One of: 'user-managed', 'automatic'"
     required: true
   validation-timeout:
-    description: "The time to wait for validation of the deployment before failing."
+    description: "The time (in seconds) to wait for validation of the deployment before failing."
     required: false
     default: "600"
 outputs:
