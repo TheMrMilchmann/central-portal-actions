@@ -42,7 +42,8 @@ test("Success: Uploads and gets VALIDATED status on first poll", async () => {
         AUTH_PARAMS,
         "/fake/path/bundle.zip",
         "My Deployment",
-        "USER_MANAGED"
+        "USER_MANAGED",
+        600
     );
 
     // Advance timers to trigger the first polling call
@@ -81,7 +82,8 @@ test("Failure: Throws error if deployment FAILED", async () => {
         AUTH_PARAMS,
         "/fake/path/bundle.zip",
         "My Failing Deployment",
-        "AUTOMATIC"
+        "AUTOMATIC",
+        600
     )).rejects.toThrow();
 
     // Assert that the network calls were made
@@ -96,8 +98,9 @@ test("Failure: Throws error on initial upload (e.g., 401 Unauthorized)", async (
         AUTH_PARAMS,
         "/fake/path/bundle.zip",
         "My Unauthorized Deployment",
-        "USER_MANAGED"
-    )).rejects.toThrow(); // The underlying client should throw on a non-2xx status
+        "USER_MANAGED",
+        600
+    )).rejects.toThrow();
 
     // Assert that only one network call was attempted
     expect(fetchMock).toHaveBeenCalledTimes(1);
