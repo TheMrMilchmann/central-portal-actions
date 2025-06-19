@@ -6,11 +6,10 @@
   "scripts": {
     "build:generate": "yarn openapi-typescript third-party/central-publisher-api.json -o src/lib/central-publisher-api/v1.d.ts",
     "build:preprocess": "tsc",
-    "build:close": "ncc build lib/actions/action-close-staging-repo.js -o dist/close-staging-repo",
-    "build:create": "ncc build lib/actions/action-create-staging-repo.js -o dist/create-staging-repo",
-    "build:drop": "ncc build lib/actions/action-drop-staging-repo.js -o dist/drop-staging-repo",
-    "build:release": "ncc build lib/actions/action-release-staging-repo.js -o dist/release-staging-repo",
-    "build": "yarn build:generate && yarn build:preprocess && yarn build:close & yarn build:create & yarn build:drop & yarn build:release",
+    "build:drop": "ncc build lib/actions/action-drop-deployment.js -o dist/drop-deployment",
+    "build:publish": "ncc build lib/actions/action-publish-deployment.js -o dist/publish-deployment",
+    "build:upload": "ncc build lib/actions/action-upload-deployment.js -o dist/upload-deployment",
+    "build": "yarn build:generate && yarn build:preprocess && yarn build:drop & yarn build:publish & yarn build:upload",
     "test": "jest"
   },
   "repository": {
