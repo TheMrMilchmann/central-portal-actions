@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.14.0"],\
           ["openapi-typescript", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:7.8.0"],\
-          ["ts-jest", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.3.4"],\
+          ["ts-jest", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.4.0"],\
           ["ts-node", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
@@ -3806,7 +3806,7 @@ const RAW_RUNTIME_STATE =
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.14.0"],\
           ["openapi-typescript", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:7.8.0"],\
-          ["ts-jest", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.3.4"],\
+          ["ts-jest", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.4.0"],\
           ["ts-node", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"]\
         ],\
@@ -4819,15 +4819,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ts-jest", [\
-      ["npm:29.3.4", {\
-        "packageLocation": "./.yarn/cache/ts-jest-npm-29.3.4-ab85c5ac0f-9f22469ef9.zip/node_modules/ts-jest/",\
+      ["npm:29.4.0", {\
+        "packageLocation": "./.yarn/cache/ts-jest-npm-29.4.0-9f040f13a5-fe501f3d99.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
-          ["ts-jest", "npm:29.3.4"]\
+          ["ts-jest", "npm:29.4.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.3.4", {\
-        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-86f63f84b1/0/cache/ts-jest-npm-29.3.4-ab85c5ac0f-9f22469ef9.zip/node_modules/ts-jest/",\
+      ["virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.4.0", {\
+        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-24dc477bf3/0/cache/ts-jest-npm-29.4.0-9f040f13a5-fe501f3d99.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
           ["@babel/core", null],\
           ["@jest/transform", null],\
@@ -4836,6 +4836,7 @@ const RAW_RUNTIME_STATE =
           ["@types/babel__core", null],\
           ["@types/esbuild", null],\
           ["@types/jest", "npm:29.5.14"],\
+          ["@types/jest-util", null],\
           ["@types/jest__transform", null],\
           ["@types/jest__types", null],\
           ["@types/typescript", null],\
@@ -4845,12 +4846,12 @@ const RAW_RUNTIME_STATE =
           ["esbuild", null],\
           ["fast-json-stable-stringify", "npm:2.1.0"],\
           ["jest", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.7.0"],\
-          ["jest-util", "npm:29.7.0"],\
+          ["jest-util", "npm:30.0.2"],\
           ["json5", "npm:2.2.3"],\
           ["lodash.memoize", "npm:4.1.2"],\
           ["make-error", "npm:1.3.6"],\
           ["semver", "npm:7.7.2"],\
-          ["ts-jest", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.3.4"],\
+          ["ts-jest", "virtual:2be4479497d28aacc998a3e1dc968d5deb16b37e6a84531275105571c5ab16cfffe6c607cea04e8371c91dce8a23ffeb80426872aa30fabf57ac88134a4e04b7#npm:29.4.0"],\
           ["type-fest", "npm:4.41.0"],\
           ["typescript", "patch:typescript@npm%3A5.8.3#optional!builtin<compat/typescript>::version=5.8.3&hash=5786d5"],\
           ["yargs-parser", "npm:21.1.1"]\
@@ -4862,12 +4863,14 @@ const RAW_RUNTIME_STATE =
           "@types/babel-jest",\
           "@types/babel__core",\
           "@types/esbuild",\
+          "@types/jest-util",\
           "@types/jest",\
           "@types/jest__transform",\
           "@types/jest__types",\
           "@types/typescript",\
           "babel-jest",\
           "esbuild",\
+          "jest-util",\
           "jest",\
           "typescript"\
         ],\
