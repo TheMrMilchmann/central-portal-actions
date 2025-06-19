@@ -10,7 +10,7 @@
     "build:publish": "ncc build lib/actions/action-publish-deployment.js -o dist/publish-deployment",
     "build:upload": "ncc build lib/actions/action-upload-deployment.js -o dist/upload-deployment",
     "build": "yarn build:generate && yarn build:preprocess && yarn build:drop & yarn build:publish & yarn build:upload",
-    "test": "jest"
+    "test": "yarn build:generate && jest"
   },
   "repository": {
     "type": "git",
