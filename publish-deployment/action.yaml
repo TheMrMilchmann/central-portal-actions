@@ -1,0 +1,23 @@
+name: "Publish Deployment"
+description: "Publishes a deployment."
+author: TheMrMilchmann
+inputs:
+  username:
+    description: "The username to use to authenticate against the Central Publisher API."
+    required: true
+  password:
+    description: "The password to use to authenticate against the Central Publisher API."
+    required: true
+  base-url:
+    description: "The base URL of the Central Publisher API."
+    required: false
+    default: "https://central.sonatype.com/"
+  deployment-id:
+    description: "The ID of the deployment to publish."
+    required: true
+runs:
+  using: node20
+  main: "../dist/publish-deployment/index.js"
+branding:
+  icon: upload
+  color: orange
