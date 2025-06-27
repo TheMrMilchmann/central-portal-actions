@@ -1574,6 +1574,26 @@ __metadata:
   languageName: node
   linkType: hard
 
+"central-portal-actions@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "central-portal-actions@workspace:."
+  dependencies:
+    "@actions/core": "npm:^1.10.1"
+    "@types/jest": "npm:^30.0.0"
+    "@types/node": "npm:^20.17.4"
+    "@vercel/ncc": "npm:^0.38.1"
+    jest: "npm:^30.0.0"
+    jest-fetch-mock: "npm:^3.0.3"
+    jest-util: "npm:^30.0.2"
+    node-fetch: "npm:^3.0.0"
+    openapi-fetch: "npm:^0.14.0"
+    openapi-typescript: "npm:^7.8.0"
+    ts-jest: "npm:^29.2.5"
+    ts-node: "npm:^10.9.2"
+    typescript: "npm:^5.5.4"
+  languageName: unknown
+  linkType: soft
+
 "chalk@npm:^4.0.2, chalk@npm:^4.1.2":
   version: 4.1.2
   resolution: "chalk@npm:4.1.2"
@@ -2995,26 +3015,6 @@ __metadata:
   checksum: 10/4c66ddfc654537333da952c084f507fa4c30c707b1635344eb35be894d797ba44c901a9cebe914aa29a7f61357543ba09b09dddbd7f65b4aee756b450f169f40
   languageName: node
   linkType: hard
-
-"maven-central-portal-actions@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "maven-central-portal-actions@workspace:."
-  dependencies:
-    "@actions/core": "npm:^1.10.1"
-    "@types/jest": "npm:^30.0.0"
-    "@types/node": "npm:^20.17.4"
-    "@vercel/ncc": "npm:^0.38.1"
-    jest: "npm:^30.0.0"
-    jest-fetch-mock: "npm:^3.0.3"
-    jest-util: "npm:^30.0.2"
-    node-fetch: "npm:^3.0.0"
-    openapi-fetch: "npm:^0.14.0"
-    openapi-typescript: "npm:^7.8.0"
-    ts-jest: "npm:^29.2.5"
-    ts-node: "npm:^10.9.2"
-    typescript: "npm:^5.5.4"
-  languageName: unknown
-  linkType: soft
 
 "merge-stream@npm:^2.0.0":
   version: 2.0.0

@@ -1,5 +1,5 @@
 {
-  "name": "maven-central-portal-actions",
+  "name": "central-portal-actions",
   "version": "0.1.0",
   "private": true,
   "description": "A set of GitHub Actions to automate publishing to Maven Central (via the Publisher API).",
@@ -14,7 +14,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TheMrMilchmann/maven-central-portal-actions.git"
+    "url": "git+https://github.com/TheMrMilchmann/central-portal-actions.git"
   },
   "keywords": [
     "actions",
