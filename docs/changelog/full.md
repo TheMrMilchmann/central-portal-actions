@@ -1,3 +1,16 @@
+### 0.1.1
+
+_Released 2025 Jun 29_
+
+#### Fixes
+
+- The action now correctly interprets responses when uploading bundles as text
+  rather than JSON.
+- The content type is now set explicitly for `application/gzip` bundles.
+
+
+---
+
 ### 0.1.0
 
 _Released 2025 Jun 27_

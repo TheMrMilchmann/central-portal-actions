@@ -25796,10 +25796,10 @@ const fs = __importStar(__nccwpck_require__(3024));
 const path = __importStar(__nccwpck_require__(6760));
 async function uploadDeployment(requestOptions, bundle, name, publishingType, validationTimeout) {
     const formData = new FormData();
-    const fileBuffer = fs.readFileSync(bundle);
-    const fileBlob = new Blob([fileBuffer]);
     const fileName = path.basename(bundle);
-    formData.append("bundle", fileBlob, fileName);
+    const contentType = fileName.endsWith("tgz") || fileName.endsWith(".tar.gz") ? "application/gzip" : undefined;
+    const file = await fs.openAsBlob(bundle, { type: contentType });
+    formData.append("bundle", file, fileName);
     const deploymentId = await (0, impl_1.default)(requestOptions, client => client.POST("/api/v1/publisher/upload", {
         params: {
             query: {
@@ -25807,7 +25807,8 @@ async function uploadDeployment(requestOptions, bundle, name, publishingType, va
                 publishingType: publishingType
             }
         },
-        body: formData
+        body: formData,
+        parseAs: "text"
     }));
     const transitionStartTime = Date.now();
     do {
