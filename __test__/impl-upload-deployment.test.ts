@@ -40,7 +40,7 @@ afterAll(() => {
 test("Success: Uploads and gets VALIDATED status on first poll", async () => {
     fetchMock.mockResponses(
         // First response for POST /api/v1/publisher/upload
-        [JSON.stringify(DEPLOYMENT_ID), { status: 201 }],
+        [DEPLOYMENT_ID, { status: 201 }],
         // Second response for POST /api/v1/publisher/status
         [JSON.stringify({ deploymentState: "VALIDATED" }), { status: 200 }]
     );
@@ -76,7 +76,7 @@ test("Success: Uploads and gets VALIDATED status on first poll", async () => {
 test("Failure: Throws error if deployment FAILED", async () => {
     fetchMock.mockResponses(
         // First response for POST /upload
-        [JSON.stringify(DEPLOYMENT_ID), { status: 201 }],
+        [DEPLOYMENT_ID, { status: 201 }],
         // Second response for POST /status
         [JSON.stringify({ deploymentState: "FAILED" }), { status: 200 }]
     );

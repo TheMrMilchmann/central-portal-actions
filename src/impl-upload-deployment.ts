@@ -34,7 +34,8 @@ export default async function uploadDeployment(
                     publishingType: publishingType
                 }
             },
-            body: formData as any
+            body: formData as any,
+            parseAs: "text"
         })
     );
 
