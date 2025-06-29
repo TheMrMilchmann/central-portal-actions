@@ -20,11 +20,10 @@ export default async function uploadDeployment(
 ): Promise<string> {
     const formData = new FormData();
 
-    const fileBuffer = fs.readFileSync(bundle);
-    const fileBlob = new Blob([fileBuffer]);
     const fileName = path.basename(bundle);
-
-    formData.append("bundle", fileBlob, fileName);
+    const contentType = fileName.endsWith("tgz") || fileName.endsWith(".tar.gz") ? "application/gzip" : undefined;
+    const file = await fs.openAsBlob(bundle, { type: contentType });
+    formData.append("bundle", file, fileName);
 
     const deploymentId = await centralPublisherRequest(requestOptions, client =>
         client.POST("/api/v1/publisher/upload", {

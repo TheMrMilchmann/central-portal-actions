@@ -3,14 +3,10 @@ enableFetchMocks();
 
 import uploadDeployment from "../src/impl-upload-deployment";
 
-import * as fs from "node:fs";
+
 jest.mock("node:fs", () => ({
     ...jest.requireActual("node:fs"),
-    promises: {
-        ...jest.requireActual("node:fs").promises,
-        access: jest.fn().mockResolvedValue(undefined),
-    },
-    readFileSync: jest.fn().mockResolvedValue("[STUB]")
+    openAsBlob: jest.fn().mockResolvedValue(new Blob([""]))
 }));
 
 const DEPLOYMENT_ID = "28570f16-da32-4c14-bd2e-c1acc0782365";
@@ -28,8 +24,6 @@ beforeAll(() => {
 beforeEach(() => {
     fetchMock.resetMocks();
     jest.clearAllMocks();
-
-    (fs.readFileSync as jest.Mock).mockReturnValue(Buffer.from("dummy bundle content"));
 });
 
 afterAll(() => {
