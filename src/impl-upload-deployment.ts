@@ -58,7 +58,7 @@ export default async function uploadDeployment(
             break; // We're happy
         } else if (response.deploymentState == "FAILED") {
             for (const error in response.errors) {
-                core.error(error);
+                core.error(`Validation error: ${error}`);
             }
             throw new Error(`Deployment failed validation: ${deploymentId}`);
         }

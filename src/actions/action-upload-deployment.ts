@@ -3,6 +3,14 @@ import * as constants from "../constants";
 import uploadDeployment from "../impl-upload-deployment";
 
 async function run() {
+    function parsePublishingType(): "AUTOMATIC" | "USER_MANAGED" {
+        switch (core.getInput(constants.INPUT_PUBLISHING_TYPE, { required: true })) {
+            case "automatic": return "AUTOMATIC";
+            case "user-managed": return "USER_MANAGED";
+            default: throw new Error(`Publishing type must be one of: "automatic", "user-managed"`);
+        }
+    }
+
     try {
         const username = core.getInput(constants.INPUT_USERNAME, { required: true });
         const password = core.getInput(constants.INPUT_PASSWORD, { required: true });
@@ -10,16 +18,11 @@ async function run() {
 
         const bundle = core.getInput(constants.INPUT_BUNDLE, { required: true });
         const name = core.getInput(constants.INPUT_NAME);
-        const publishingType = core.getInput(constants.INPUT_PUBLISHING_TYPE, { required: true });
+        const publishingType = parsePublishingType();
         const validationTimeout = parseInt(core.getInput(constants.INPUT_VALIDATION_TIMEOUT, { required: true }));
 
         if (name && name.length == 0) {
             core.setFailed("Name may not be empty");
-            return;
-        }
-
-        if (publishingType != "AUTOMATIC" && publishingType != "USER_MANAGED") {
-            core.setFailed("Publishing type must be one of: AUTOMATIC, USER_MANAGED");
             return;
         }
 

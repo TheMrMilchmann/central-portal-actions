@@ -21,18 +21,20 @@ Creates a new deployment by uploading a bundle.
 
 ```yaml
 steps:
-  - uses: TheMrMilchmann/central-portal-actions/upload-deployment@v1
+  - id: upload 
+    uses: TheMrMilchmann/central-portal-actions/upload-deployment@v1
     with:
       username: ...
       password: ...
       bundle: ...
-    outputs:
-      deployment-id: ${{ steps.create.outputs.repository_id }}
+      
+outputs:
+  deployment-id: ${{ steps.upload.outputs.deployment-id }}
 ```
 
 By default, deployments are configured to automatically be published once they
 have passed validation. In case where more control over publishing is required,
-`publishing-type` may be set to `USER_MANAGED` instead. User-managed deployments
+`publishing-type` may be set to `user-managed` instead. User-managed deployments
 must be manually published. This can be done using the publish-deployment action
 (below).
 
@@ -44,7 +46,7 @@ must be manually published. This can be done using the publish-deployment action
 | `username`           | The username to use to authenticate against the Central Portal.                 |                                   |
 | `password`           | The password to use to authenticate against the Central Portal.                 |                                   |
 | `bundle`             | The path to the bundle to upload.                                               |                                   |
-| `publishing-type`    | The strategy for publishing the deployment. One of: `AUTOMATIC`, `USER_MANAGED` | `"AUTOMATIC"`                     |
+| `publishing-type`    | The strategy for publishing the deployment. One of: `automatic`, `user-managed` | `"automatic"`                     |
 | `validation-timeout` | The time (in seconds) to wait for validation of the deployment before failing.  | `600`                             |
 | `base-url`           | The base URL of the Central Portal.                                             | `"https://central.sonatype.com/"` |
 | `name`               | An optional name for the deployment.                                            |                                   |
