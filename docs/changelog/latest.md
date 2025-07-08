@@ -1,9 +1,13 @@
-### 0.1.1
+### 0.2.0
 
-_Released 2025 Jun 29_
+_Released 2025 Jul 09_
 
-#### Fixes
+#### Improvements
 
-- The action now correctly interprets responses when uploading bundles as text
-  rather than JSON.
-- The content type is now set explicitly for `application/gzip` bundles.
+- The `upload-deployment` action now accepts a publishing type of `automatic` or
+  `user-managed` (previously `AUTOMATIC` and `USER_MANAGED`).
+
+#### Breaking Changes
+
+- The `publishing-type` input of the `upload-deployment` action now accepts a
+  publishing type of `automatic` or `user-managed`.
