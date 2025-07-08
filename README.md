@@ -21,13 +21,15 @@ Creates a new deployment by uploading a bundle.
 
 ```yaml
 steps:
-  - uses: TheMrMilchmann/central-portal-actions/upload-deployment@v1
+  - id: upload 
+    uses: TheMrMilchmann/central-portal-actions/upload-deployment@v1
     with:
       username: ...
       password: ...
       bundle: ...
-    outputs:
-      deployment-id: ${{ steps.create.outputs.repository_id }}
+      
+outputs:
+  deployment-id: ${{ steps.upload.outputs.deployment-id }}
 ```
 
 By default, deployments are configured to automatically be published once they
