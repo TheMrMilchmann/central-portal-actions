@@ -1,5 +1,4 @@
 name: CI
-
 on:
   push:
     branches-ignore:
@@ -11,7 +10,8 @@ on:
       - 'v*'
     paths-ignore:
       - '**.md'
-
+permissions:
+  contents: read
 
 jobs:
   build:
@@ -29,7 +29,6 @@ jobs:
 
       - name: Yarn build
         run: yarn build
-
 
   test:
     name: Test

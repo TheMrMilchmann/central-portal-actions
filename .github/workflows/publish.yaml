@@ -1,15 +1,14 @@
 name: Publish
 on: workflow_dispatch
-
+permissions:
+  contents: write
 
 concurrency:
   group: publish-${{ github.ref }}
 
-
 env:
   WORKSPACE_ARCHIVE: workspace.tar
   WORKSPACE_ARTIFACT: build-results
-
 
 jobs:
   build:
@@ -37,7 +36,6 @@ jobs:
           path: ${{ env.WORKSPACE_ARCHIVE }}
           retention-days: 1
 
-
   test:
     name: Test
     runs-on: ubuntu-latest
@@ -53,7 +51,6 @@ jobs:
 
       - name: Yarn test
         run: yarn test
-
 
   publish:
     name: Publish
@@ -113,7 +110,6 @@ jobs:
           git tag v$RELEASE_VERSION
           git push -u origin HEAD:$RELEASE_VERSION_MAJOR --tags
           popd
-
 
   # So, what's happening here?
   #
