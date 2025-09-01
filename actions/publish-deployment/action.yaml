@@ -16,7 +16,7 @@ inputs:
     description: "The ID of the deployment to publish."
     required: true
 runs:
-  using: node20
+  using: node24
   main: "../dist/publish-deployment/index.js"
 branding:
   icon: upload

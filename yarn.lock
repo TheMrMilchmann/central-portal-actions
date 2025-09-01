@@ -1061,21 +1061,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^24.3.0":
   version: 24.3.0
   resolution: "@types/node@npm:24.3.0"
   dependencies:
     undici-types: "npm:~7.10.0"
   checksum: 10/1331c2d0e9a512ac27a016b4df3eff92317e4603dbbbab31731275dff14d3a04847a50c5776cbf94f99ff4dedac0ba5f721dce8cea020d8eea5e21711fd964b0
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.17.4":
-  version: 20.19.11
-  resolution: "@types/node@npm:20.19.11"
-  dependencies:
-    undici-types: "npm:~6.21.0"
-  checksum: 10/7179ed464a781cad20117362df58c12839b40922b53356e1a74f86c99d9d1ef9a27edce360901608f896c247c9c4131ba9c7222331e92cde17b723c75d5c8f2e
   languageName: node
   linkType: hard
 
@@ -1579,7 +1570,7 @@ __metadata:
   dependencies:
     "@actions/core": "npm:^1.10.1"
     "@types/jest": "npm:^30.0.0"
-    "@types/node": "npm:^20.17.4"
+    "@types/node": "npm:^24.3.0"
     "@vercel/ncc": "npm:^0.38.1"
     jest: "npm:^30.0.0"
     jest-fetch-mock: "npm:^3.0.3"
@@ -3990,13 +3981,6 @@ __metadata:
   bin:
     uglifyjs: bin/uglifyjs
   checksum: 10/6b9639c1985d24580b01bb0ab68e78de310d38eeba7db45bec7850ab4093d8ee464d80ccfaceda9c68d1c366efbee28573b52f95e69ac792354c145acd380b11
-  languageName: node
-  linkType: hard
-
-"undici-types@npm:~6.21.0":
-  version: 6.21.0
-  resolution: "undici-types@npm:6.21.0"
-  checksum: 10/ec8f41aa4359d50f9b59fa61fe3efce3477cc681908c8f84354d8567bb3701fafdddf36ef6bff307024d3feb42c837cf6f670314ba37fc8145e219560e473d14
   languageName: node
   linkType: hard
 
