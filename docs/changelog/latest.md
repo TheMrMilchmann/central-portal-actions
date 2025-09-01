@@ -1,13 +1,9 @@
-### 0.2.0
+### 1.0.0
 
-_Released 2025 Jul 09_
+_Released 2025 Sep 01_
 
 #### Improvements
 
-- The `upload-deployment` action now accepts a publishing type of `automatic` or
-  `user-managed` (previously `AUTOMATIC` and `USER_MANAGED`).
-
-#### Breaking Changes
-
-- The `publishing-type` input of the `upload-deployment` action now accepts a
-  publishing type of `automatic` or `user-managed`.
+- Updated to the node24 runtime by default.
+    - This requires a minimum [Actions Runner](https://github.com/actions/runner/releases/tag/v2.327.1)
+      version of v2.327.1 to run.
