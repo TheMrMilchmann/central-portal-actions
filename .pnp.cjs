@@ -31,7 +31,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:24.5.2"],\
-          ["@vercel/ncc", "npm:0.38.3"],\
+          ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:30.1.3"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
@@ -1854,10 +1854,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/ncc", [\
-      ["npm:0.38.3", {\
-        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.3-cb2c08b26f-f1a05a58e9.zip/node_modules/@vercel/ncc/",\
+      ["npm:0.38.4", {\
+        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.4-c7f6d7c3e6-06561fb3fd.zip/node_modules/@vercel/ncc/",\
         "packageDependencies": [\
-          ["@vercel/ncc", "npm:0.38.3"],\
+          ["@vercel/ncc", "npm:0.38.4"],\
           ["node-gyp", "npm:11.4.2"]\
         ],\
         "linkType": "HARD"\
@@ -2290,7 +2290,7 @@ const RAW_RUNTIME_STATE =
           ["@actions/core", "npm:1.11.1"],\
           ["@types/jest", "npm:30.0.0"],\
           ["@types/node", "npm:24.5.2"],\
-          ["@vercel/ncc", "npm:0.38.3"],\
+          ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:30.1.3"],\
           ["jest-fetch-mock", "npm:3.0.3"],\
@@ -10669,7 +10669,8 @@ class ZipFS extends BasePortableFakeFS {
         const entries = Array.from(directoryListing, (name) => {
           return Object.assign(this.statImpl(`lstat`, ppath.join(p, name)), {
             name,
-            path: PortablePath.dot
+            path: PortablePath.dot,
+            parentPath: PortablePath.dot
           });
         });
         for (const entry of entries) {
@@ -10680,7 +10681,8 @@ class ZipFS extends BasePortableFakeFS {
           for (const child of subListing) {
             entries.push(Object.assign(this.statImpl(`lstat`, ppath.join(p, subPath, child)), {
               name: child,
-              path: subPath
+              path: subPath,
+              parentPath: subPath
             }));
           }
         }
@@ -10701,7 +10703,8 @@ class ZipFS extends BasePortableFakeFS {
       return Array.from(directoryListing, (name) => {
         return Object.assign(this.statImpl(`lstat`, ppath.join(p, name)), {
           name,
-          path: void 0
+          path: void 0,
+          parentPath: void 0
         });
       });
     } else {
