@@ -37,7 +37,7 @@ const RAW_RUNTIME_STATE =
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["jest-util", "npm:30.2.0"],\
           ["node-fetch", "npm:3.3.2"],\
-          ["openapi-fetch", "npm:0.14.0"],\
+          ["openapi-fetch", "npm:0.14.1"],\
           ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.9.1"],\
           ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.4"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
@@ -2294,7 +2294,7 @@ const RAW_RUNTIME_STATE =
           ["jest-fetch-mock", "npm:3.0.3"],\
           ["jest-util", "npm:30.2.0"],\
           ["node-fetch", "npm:3.3.2"],\
-          ["openapi-fetch", "npm:0.14.0"],\
+          ["openapi-fetch", "npm:0.14.1"],\
           ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.9.1"],\
           ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.4"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
@@ -4219,10 +4219,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["openapi-fetch", [\
-      ["npm:0.14.0", {\
-        "packageLocation": "./.yarn/cache/openapi-fetch-npm-0.14.0-20e667e085-aa42d3990f.zip/node_modules/openapi-fetch/",\
+      ["npm:0.14.1", {\
+        "packageLocation": "./.yarn/cache/openapi-fetch-npm-0.14.1-992ed6acd0-557f43f70b.zip/node_modules/openapi-fetch/",\
         "packageDependencies": [\
-          ["openapi-fetch", "npm:0.14.0"],\
+          ["openapi-fetch", "npm:0.14.1"],\
           ["openapi-typescript-helpers", "npm:0.0.15"]\
         ],\
         "linkType": "HARD"\
