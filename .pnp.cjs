@@ -38,7 +38,7 @@ const RAW_RUNTIME_STATE =
           ["jest-util", "npm:30.2.0"],\
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.14.1"],\
-          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.9.1"],\
+          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.0"],\
           ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.5"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
@@ -2295,7 +2295,7 @@ const RAW_RUNTIME_STATE =
           ["jest-util", "npm:30.2.0"],\
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.14.1"],\
-          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.9.1"],\
+          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.0"],\
           ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.5"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
@@ -4229,21 +4229,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["openapi-typescript", [\
-      ["npm:7.9.1", {\
-        "packageLocation": "./.yarn/cache/openapi-typescript-npm-7.9.1-753f55d26c-1d2d967e40.zip/node_modules/openapi-typescript/",\
+      ["npm:7.10.0", {\
+        "packageLocation": "./.yarn/cache/openapi-typescript-npm-7.10.0-0abbe3a58b-d4b3dc3092.zip/node_modules/openapi-typescript/",\
         "packageDependencies": [\
-          ["openapi-typescript", "npm:7.9.1"]\
+          ["openapi-typescript", "npm:7.10.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.9.1", {\
-        "packageLocation": "./.yarn/__virtual__/openapi-typescript-virtual-335667ad5e/0/cache/openapi-typescript-npm-7.9.1-753f55d26c-1d2d967e40.zip/node_modules/openapi-typescript/",\
+      ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.0", {\
+        "packageLocation": "./.yarn/__virtual__/openapi-typescript-virtual-e0deb53c89/0/cache/openapi-typescript-npm-7.10.0-0abbe3a58b-d4b3dc3092.zip/node_modules/openapi-typescript/",\
         "packageDependencies": [\
           ["@redocly/openapi-core", "npm:1.34.5"],\
           ["@types/typescript", null],\
           ["ansi-colors", "npm:4.1.3"],\
           ["change-case", "npm:5.4.4"],\
-          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.9.1"],\
+          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.0"],\
           ["parse-json", "npm:8.3.0"],\
           ["supports-color", "npm:10.2.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\

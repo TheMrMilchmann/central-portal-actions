@@ -3226,20 +3226,20 @@ __metadata:
   linkType: hard
 
 "openapi-typescript@npm:^7.8.0":
-  version: 7.9.1
-  resolution: "openapi-typescript@npm:7.9.1"
+  version: 7.10.0
+  resolution: "openapi-typescript@npm:7.10.0"
   dependencies:
     "@redocly/openapi-core": "npm:^1.34.5"
     ansi-colors: "npm:^4.1.3"
     change-case: "npm:^5.4.4"
     parse-json: "npm:^8.3.0"
-    supports-color: "npm:^10.1.0"
+    supports-color: "npm:^10.2.2"
     yargs-parser: "npm:^21.1.1"
   peerDependencies:
     typescript: ^5.x
   bin:
     openapi-typescript: bin/cli.js
-  checksum: 10/1d2d967e40a25f646e71142a71165bad23642610df688ae9daba458f86267432acd16c0f44e602068883a51eec3acb23d5e0cb01c6be037b5503a45261b830f0
+  checksum: 10/d4b3dc3092436a2462f651f9bd05457eb4da370133509f1cee83dedb9491808b63054e52ed1b007ca2d2c22708079267f9a23f38b32c22c8324575c68a0d5d3e
   languageName: node
   linkType: hard
 
@@ -3678,7 +3678,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"supports-color@npm:^10.1.0":
+"supports-color@npm:^10.2.2":
   version: 10.2.2
   resolution: "supports-color@npm:10.2.2"
   checksum: 10/bd132705fc07213a4024131fb061f0a46a48b49ecaf434bb029c0a5aa0339b969236d496d63969e3c248a90fdcac16d4f9c5bf187e7be0bfb5e804ed13bef6b0
