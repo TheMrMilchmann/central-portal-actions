@@ -1568,7 +1568,7 @@ __metadata:
     jest-fetch-mock: "npm:^3.0.3"
     jest-util: "npm:^30.0.2"
     node-fetch: "npm:^3.0.0"
-    openapi-fetch: "npm:^0.14.0"
+    openapi-fetch: "npm:^0.15.0"
     openapi-typescript: "npm:^7.8.0"
     ts-jest: "npm:^29.2.5"
     ts-node: "npm:^10.9.2"
@@ -3209,12 +3209,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openapi-fetch@npm:^0.14.0":
-  version: 0.14.1
-  resolution: "openapi-fetch@npm:0.14.1"
+"openapi-fetch@npm:^0.15.0":
+  version: 0.15.0
+  resolution: "openapi-fetch@npm:0.15.0"
   dependencies:
     openapi-typescript-helpers: "npm:^0.0.15"
-  checksum: 10/557f43f70b08bc6bdbc40b344cd9a82ef26e0ee957b81820ecda4b09f55c9749371cf527efc9a811748aaacc50c75fd72c8001836e9dce542d2836bd65f902df
+  checksum: 10/51e55fa8e7534ab60d67738c0b4e66cf3652608870478312c57dacb9a81a58448e1e8a35001533761350c27f246c6733d611b387fc1dd9415889e7c304068e88
   languageName: node
   linkType: hard
 
