@@ -3226,8 +3226,8 @@ __metadata:
   linkType: hard
 
 "openapi-typescript@npm:^7.8.0":
-  version: 7.10.0
-  resolution: "openapi-typescript@npm:7.10.0"
+  version: 7.10.1
+  resolution: "openapi-typescript@npm:7.10.1"
   dependencies:
     "@redocly/openapi-core": "npm:^1.34.5"
     ansi-colors: "npm:^4.1.3"
@@ -3239,7 +3239,7 @@ __metadata:
     typescript: ^5.x
   bin:
     openapi-typescript: bin/cli.js
-  checksum: 10/d4b3dc3092436a2462f651f9bd05457eb4da370133509f1cee83dedb9491808b63054e52ed1b007ca2d2c22708079267f9a23f38b32c22c8324575c68a0d5d3e
+  checksum: 10/531627b6824721f7c4066e2d46fcc71e04f5e4daa6345fb21913441165fd8804f977fe961936a9254548e279711f1add9bb283d7c6984cc36e6e1d19e902bd46
   languageName: node
   linkType: hard
 
