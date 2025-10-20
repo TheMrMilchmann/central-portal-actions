@@ -1195,7 +1195,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.8.1"],\
           ["@types/node-notifier", null],\
           ["chalk", "npm:4.1.2"],\
-          ["collect-v8-coverage", "npm:1.0.2"],\
+          ["collect-v8-coverage", "npm:1.0.3"],\
           ["exit-x", "npm:0.2.2"],\
           ["glob", "npm:10.4.5"],\
           ["graceful-fs", "npm:4.2.11"],\
@@ -1262,7 +1262,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-result", "npm:30.2.0"],\
           ["@jest/types", "npm:30.2.0"],\
           ["@types/istanbul-lib-coverage", "npm:2.0.6"],\
-          ["collect-v8-coverage", "npm:1.0.2"]\
+          ["collect-v8-coverage", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1858,7 +1858,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.4-c7f6d7c3e6-06561fb3fd.zip/node_modules/@vercel/ncc/",\
         "packageDependencies": [\
           ["@vercel/ncc", "npm:0.38.4"],\
-          ["node-gyp", "npm:11.4.2"]\
+          ["node-gyp", "npm:11.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2146,10 +2146,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["baseline-browser-mapping", [\
-      ["npm:2.8.16", {\
-        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.8.16-ad69292963-52a5807591.zip/node_modules/baseline-browser-mapping/",\
+      ["npm:2.8.18", {\
+        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.8.18-66115fb2ff-073e2548e0.zip/node_modules/baseline-browser-mapping/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.16"]\
+          ["baseline-browser-mapping", "npm:2.8.18"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2187,11 +2187,11 @@ const RAW_RUNTIME_STATE =
       ["npm:4.26.3", {\
         "packageLocation": "./.yarn/cache/browserslist-npm-4.26.3-a3d5d315b1-49add06fd7.zip/node_modules/browserslist/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.16"],\
+          ["baseline-browser-mapping", "npm:2.8.18"],\
           ["browserslist", "npm:4.26.3"],\
-          ["caniuse-lite", "npm:1.0.30001750"],\
-          ["electron-to-chromium", "npm:1.5.234"],\
-          ["node-releases", "npm:2.0.23"],\
+          ["caniuse-lite", "npm:1.0.30001751"],\
+          ["electron-to-chromium", "npm:1.5.237"],\
+          ["node-releases", "npm:2.0.25"],\
           ["update-browserslist-db", "virtual:a3d5d315b18a8efd5c6c6fa0a7cb47735114bfe945a51fdf8abace3d923b097861a54a987821a6a208a9c0ea0a7af561be5ae7a37c61244aa72655bb6c469aa8#npm:1.1.3"]\
         ],\
         "linkType": "HARD"\
@@ -2273,10 +2273,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001750", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001750-46377a8526-2b912758d8.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001751", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001751-1e03ddb5a2-608f7e1248.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001750"]\
+          ["caniuse-lite", "npm:1.0.30001751"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2381,10 +2381,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["collect-v8-coverage", [\
-      ["npm:1.0.2", {\
-        "packageLocation": "./.yarn/cache/collect-v8-coverage-npm-1.0.2-bd20d0c572-30ea7d5c9e.zip/node_modules/collect-v8-coverage/",\
+      ["npm:1.0.3", {\
+        "packageLocation": "./.yarn/cache/collect-v8-coverage-npm-1.0.3-58d347a876-656443261f.zip/node_modules/collect-v8-coverage/",\
         "packageDependencies": [\
-          ["collect-v8-coverage", "npm:1.0.2"]\
+          ["collect-v8-coverage", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2557,10 +2557,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.234", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.234-872a6fe2d7-58ea98f920.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.237", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.237-e6c5a571d2-d21837cfc7.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.234"]\
+          ["electron-to-chromium", "npm:1.5.237"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2833,7 +2833,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/fsevents-patch-6b67494872/node_modules/fsevents/",\
         "packageDependencies": [\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
-          ["node-gyp", "npm:11.4.2"]\
+          ["node-gyp", "npm:11.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3617,7 +3617,7 @@ const RAW_RUNTIME_STATE =
           ["@types/node", "npm:24.8.1"],\
           ["chalk", "npm:4.1.2"],\
           ["cjs-module-lexer", "npm:2.1.0"],\
-          ["collect-v8-coverage", "npm:1.0.2"],\
+          ["collect-v8-coverage", "npm:1.0.3"],\
           ["glob", "npm:10.4.5"],\
           ["graceful-fs", "npm:4.2.11"],\
           ["jest-haste-map", "npm:30.2.0"],\
@@ -4133,14 +4133,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["node-gyp", [\
-      ["npm:11.4.2", {\
-        "packageLocation": "./.yarn/unplugged/node-gyp-npm-11.4.2-75a7da9a3c/node_modules/node-gyp/",\
+      ["npm:11.5.0", {\
+        "packageLocation": "./.yarn/unplugged/node-gyp-npm-11.5.0-6cfe9d790c/node_modules/node-gyp/",\
         "packageDependencies": [\
           ["env-paths", "npm:2.2.1"],\
           ["exponential-backoff", "npm:3.1.3"],\
           ["graceful-fs", "npm:4.2.11"],\
           ["make-fetch-happen", "npm:14.0.3"],\
-          ["node-gyp", "npm:11.4.2"],\
+          ["node-gyp", "npm:11.5.0"],\
           ["nopt", "npm:8.1.0"],\
           ["proc-log", "npm:5.0.0"],\
           ["semver", "npm:7.7.3"],\
@@ -4161,10 +4161,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["node-releases", [\
-      ["npm:2.0.23", {\
-        "packageLocation": "./.yarn/cache/node-releases-npm-2.0.23-e2f8519037-f937b23e27.zip/node_modules/node-releases/",\
+      ["npm:2.0.25", {\
+        "packageLocation": "./.yarn/cache/node-releases-npm-2.0.25-299a9e3a8a-f2d01bf94c.zip/node_modules/node-releases/",\
         "packageDependencies": [\
-          ["node-releases", "npm:2.0.23"]\
+          ["node-releases", "npm:2.0.25"]\
         ],\
         "linkType": "HARD"\
       }]\
