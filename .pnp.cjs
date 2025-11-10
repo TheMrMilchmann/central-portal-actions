@@ -2146,10 +2146,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["baseline-browser-mapping", [\
-      ["npm:2.8.23", {\
-        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.8.23-113a02bae4-f074d76f4b.zip/node_modules/baseline-browser-mapping/",\
+      ["npm:2.8.25", {\
+        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.8.25-73550d88bf-a6af9dcf57.zip/node_modules/baseline-browser-mapping/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.23"]\
+          ["baseline-browser-mapping", "npm:2.8.25"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2187,10 +2187,10 @@ const RAW_RUNTIME_STATE =
       ["npm:4.27.0", {\
         "packageLocation": "./.yarn/cache/browserslist-npm-4.27.0-7b54f5398a-56db4cdb98.zip/node_modules/browserslist/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.23"],\
+          ["baseline-browser-mapping", "npm:2.8.25"],\
           ["browserslist", "npm:4.27.0"],\
-          ["caniuse-lite", "npm:1.0.30001753"],\
-          ["electron-to-chromium", "npm:1.5.244"],\
+          ["caniuse-lite", "npm:1.0.30001754"],\
+          ["electron-to-chromium", "npm:1.5.249"],\
           ["node-releases", "npm:2.0.27"],\
           ["update-browserslist-db", "virtual:7b54f5398ae1ea153cefe5462cbbf591458c9f631af18763a07384131da5459dfb5bad1a6998dcb1a46db17cdc34577efc192d33a98829631bc9b5d955755fe2#npm:1.1.4"]\
         ],\
@@ -2273,10 +2273,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001753", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001753-4588e1a19e-b8e8bd4c77.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001754", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001754-112f366158-6061032b8e.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001753"]\
+          ["caniuse-lite", "npm:1.0.30001754"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2351,10 +2351,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["cjs-module-lexer", [\
-      ["npm:2.1.0", {\
-        "packageLocation": "./.yarn/cache/cjs-module-lexer-npm-2.1.0-c520790078-97cf8e7ddb.zip/node_modules/cjs-module-lexer/",\
+      ["npm:2.1.1", {\
+        "packageLocation": "./.yarn/cache/cjs-module-lexer-npm-2.1.1-1379f45fe1-db4331152f.zip/node_modules/cjs-module-lexer/",\
         "packageDependencies": [\
-          ["cjs-module-lexer", "npm:2.1.0"]\
+          ["cjs-module-lexer", "npm:2.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2557,10 +2557,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.244", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.244-ed1b43767e-5a29ee2952.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.249", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.249-2268e7bbbd-608390ff63.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.244"]\
+          ["electron-to-chromium", "npm:1.5.249"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3043,10 +3043,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ip-address", [\
-      ["npm:10.0.1", {\
-        "packageLocation": "./.yarn/cache/ip-address-npm-10.0.1-862be6199a-09731acda3.zip/node_modules/ip-address/",\
+      ["npm:10.1.0", {\
+        "packageLocation": "./.yarn/cache/ip-address-npm-10.1.0-d5d5693401-a6979629d1.zip/node_modules/ip-address/",\
         "packageDependencies": [\
-          ["ip-address", "npm:10.0.1"]\
+          ["ip-address", "npm:10.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3616,7 +3616,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/types", "npm:30.2.0"],\
           ["@types/node", "npm:24.10.0"],\
           ["chalk", "npm:4.1.2"],\
-          ["cjs-module-lexer", "npm:2.1.0"],\
+          ["cjs-module-lexer", "npm:2.1.1"],\
           ["collect-v8-coverage", "npm:1.0.3"],\
           ["glob", "npm:10.4.5"],\
           ["graceful-fs", "npm:4.2.11"],\
@@ -4621,7 +4621,7 @@ const RAW_RUNTIME_STATE =
       ["npm:2.8.7", {\
         "packageLocation": "./.yarn/cache/socks-npm-2.8.7-d1d20aae19-d19366c959.zip/node_modules/socks/",\
         "packageDependencies": [\
-          ["ip-address", "npm:10.0.1"],\
+          ["ip-address", "npm:10.1.0"],\
           ["smart-buffer", "npm:4.2.0"],\
           ["socks", "npm:2.8.7"]\
         ],\
@@ -8241,28 +8241,40 @@ class FileHandle {
   sync() {
     throw new Error(`Method not implemented.`);
   }
-  async read(bufferOrOptions, offset, length, position) {
+  async read(bufferOrOptions, offsetOrOptions, length, position) {
     try {
       this[kRef](this.read);
       let buffer;
-      if (!Buffer.isBuffer(bufferOrOptions)) {
-        bufferOrOptions ??= {};
-        buffer = bufferOrOptions.buffer ?? Buffer.alloc(16384);
-        offset = bufferOrOptions.offset || 0;
-        length = bufferOrOptions.length ?? buffer.byteLength;
-        position = bufferOrOptions.position ?? null;
+      let offset;
+      if (!ArrayBuffer.isView(bufferOrOptions)) {
+        buffer = bufferOrOptions?.buffer ?? Buffer.alloc(16384);
+        offset = bufferOrOptions?.offset ?? 0;
+        length = bufferOrOptions?.length ?? buffer.byteLength - offset;
+        position = bufferOrOptions?.position ?? null;
+      } else if (typeof offsetOrOptions === `object` && offsetOrOptions !== null) {
+        buffer = bufferOrOptions;
+        offset = offsetOrOptions?.offset ?? 0;
+        length = offsetOrOptions?.length ?? buffer.byteLength - offset;
+        position = offsetOrOptions?.position ?? null;
       } else {
         buffer = bufferOrOptions;
+        offset = offsetOrOptions ?? 0;
+        length ??= 0;
       }
-      offset ??= 0;
-      length ??= 0;
       if (length === 0) {
         return {
           bytesRead: length,
           buffer
         };
       }
-      const bytesRead = await this[kBaseFs].readPromise(this.fd, buffer, offset, length, position);
+      const bytesRead = await this[kBaseFs].readPromise(
+        this.fd,
+        // FIXME: FakeFS should support ArrayBufferViews directly
+        Buffer.isBuffer(buffer) ? buffer : Buffer.from(buffer.buffer, buffer.byteOffset, buffer.byteLength),
+        offset,
+        length,
+        position
+      );
       return {
         bytesRead,
         buffer
@@ -11167,6 +11179,7 @@ function applyPatch(pnpapi, opts) {
       const optionNames = new Set(Object.keys(options));
       optionNames.delete(`paths`);
       optionNames.delete(`plugnplay`);
+      optionNames.delete(`conditions`);
       if (optionNames.size > 0) {
         throw makeError(
           ErrorCode.UNSUPPORTED,
@@ -11195,11 +11208,15 @@ function applyPatch(pnpapi, opts) {
       const issuerApi = apiPath !== null ? opts.manager.getApiEntry(apiPath, true).instance : null;
       try {
         if (issuerApi !== null) {
-          resolution = issuerApi.resolveRequest(request, path !== null ? `${path}/` : null);
+          resolution = issuerApi.resolveRequest(request, path !== null ? `${path}/` : null, {
+            conditions: options?.conditions
+          });
         } else {
           if (path === null)
             throw new Error(`Assertion failed: Expected the path to be set`);
-          resolution = originalModuleResolveFilename.call(require$$0.Module, request, module || makeFakeParent(path), isMain);
+          resolution = originalModuleResolveFilename.call(require$$0.Module, request, module || makeFakeParent(path), isMain, {
+            conditions: options?.conditions
+          });
         }
       } catch (error) {
         firstError = firstError || error;
