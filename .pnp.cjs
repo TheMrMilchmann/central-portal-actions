@@ -1419,7 +1419,7 @@ const RAW_RUNTIME_STATE =
           ["agent-base", "npm:7.1.4"],\
           ["http-proxy-agent", "npm:7.0.2"],\
           ["https-proxy-agent", "npm:7.0.6"],\
-          ["lru-cache", "npm:11.2.2"],\
+          ["lru-cache", "npm:11.2.4"],\
           ["socks-proxy-agent", "npm:8.0.5"]\
         ],\
         "linkType": "HARD"\
@@ -2165,10 +2165,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["baseline-browser-mapping", [\
-      ["npm:2.8.31", {\
-        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.8.31-82b7831b34-aefad7523a.zip/node_modules/baseline-browser-mapping/",\
+      ["npm:2.8.32", {\
+        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.8.32-733775c0a7-d3223faeb8.zip/node_modules/baseline-browser-mapping/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.31"]\
+          ["baseline-browser-mapping", "npm:2.8.32"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2206,10 +2206,10 @@ const RAW_RUNTIME_STATE =
       ["npm:4.28.0", {\
         "packageLocation": "./.yarn/cache/browserslist-npm-4.28.0-c16ea3c47c-59dc88f8d9.zip/node_modules/browserslist/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.8.31"],\
+          ["baseline-browser-mapping", "npm:2.8.32"],\
           ["browserslist", "npm:4.28.0"],\
-          ["caniuse-lite", "npm:1.0.30001756"],\
-          ["electron-to-chromium", "npm:1.5.259"],\
+          ["caniuse-lite", "npm:1.0.30001757"],\
+          ["electron-to-chromium", "npm:1.5.262"],\
           ["node-releases", "npm:2.0.27"],\
           ["update-browserslist-db", "virtual:c16ea3c47c3f481d4b294c3f8cbee47f97330604def79ce3b6a7a4167ccd05fd4ae1864e80f935b7d27e04da9cb97d2dc56b9955f55cd9aeac05cc005f33ecff#npm:1.1.4"]\
         ],\
@@ -2253,7 +2253,7 @@ const RAW_RUNTIME_STATE =
           ["cacache", "npm:20.0.3"],\
           ["fs-minipass", "npm:3.0.3"],\
           ["glob", "npm:13.0.0"],\
-          ["lru-cache", "npm:11.2.2"],\
+          ["lru-cache", "npm:11.2.4"],\
           ["minipass", "npm:7.1.2"],\
           ["minipass-collect", "npm:2.0.1"],\
           ["minipass-flush", "npm:1.0.5"],\
@@ -2291,10 +2291,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001756", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001756-57d36d865f-1aa412f539.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001757", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001757-943d8c5b71-2efcb3614a.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001756"]\
+          ["caniuse-lite", "npm:1.0.30001757"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2575,10 +2575,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.259", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.259-fe54918d04-259aa8b9c2.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.262", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.262-76f15cd64e-9934da5f5f.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.259"]\
+          ["electron-to-chromium", "npm:1.5.262"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3880,10 +3880,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:11.2.2", {\
-        "packageLocation": "./.yarn/cache/lru-cache-npm-11.2.2-685f5506dc-fa7919fbf0.zip/node_modules/lru-cache/",\
+      ["npm:11.2.4", {\
+        "packageLocation": "./.yarn/cache/lru-cache-npm-11.2.4-3f72660965-3b2da74c0b.zip/node_modules/lru-cache/",\
         "packageDependencies": [\
-          ["lru-cache", "npm:11.2.2"]\
+          ["lru-cache", "npm:11.2.4"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -3928,7 +3928,7 @@ const RAW_RUNTIME_STATE =
           ["minipass-flush", "npm:1.0.5"],\
           ["minipass-pipeline", "npm:1.2.4"],\
           ["negotiator", "npm:1.0.0"],\
-          ["proc-log", "npm:6.0.0"],\
+          ["proc-log", "npm:6.1.0"],\
           ["promise-retry", "npm:2.0.1"],\
           ["ssri", "npm:13.0.0"]\
         ],\
@@ -4194,7 +4194,7 @@ const RAW_RUNTIME_STATE =
           ["make-fetch-happen", "npm:15.0.3"],\
           ["node-gyp", "npm:12.1.0"],\
           ["nopt", "npm:9.0.0"],\
-          ["proc-log", "npm:6.0.0"],\
+          ["proc-log", "npm:6.1.0"],\
           ["semver", "npm:7.7.3"],\
           ["tar", "npm:7.5.2"],\
           ["tinyglobby", "npm:0.2.15"],\
@@ -4435,7 +4435,7 @@ const RAW_RUNTIME_STATE =
       ["npm:2.0.1", {\
         "packageLocation": "./.yarn/cache/path-scurry-npm-2.0.1-7744619e5d-1e9c74e9cc.zip/node_modules/path-scurry/",\
         "packageDependencies": [\
-          ["lru-cache", "npm:11.2.2"],\
+          ["lru-cache", "npm:11.2.4"],\
           ["minipass", "npm:7.1.2"],\
           ["path-scurry", "npm:2.0.1"]\
         ],\
@@ -4508,10 +4508,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["proc-log", [\
-      ["npm:6.0.0", {\
-        "packageLocation": "./.yarn/cache/proc-log-npm-6.0.0-455d6f01a6-98831f35d3.zip/node_modules/proc-log/",\
+      ["npm:6.1.0", {\
+        "packageLocation": "./.yarn/cache/proc-log-npm-6.1.0-84e609b3f4-9033f30f16.zip/node_modules/proc-log/",\
         "packageDependencies": [\
-          ["proc-log", "npm:6.0.0"]\
+          ["proc-log", "npm:6.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
