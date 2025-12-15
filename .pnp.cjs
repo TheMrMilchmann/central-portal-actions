@@ -1476,12 +1476,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@redocly/openapi-core", [\
-      ["npm:1.34.5", {\
-        "packageLocation": "./.yarn/cache/@redocly-openapi-core-npm-1.34.5-6e131049a1-9ecce1975b.zip/node_modules/@redocly/openapi-core/",\
+      ["npm:1.34.6", {\
+        "packageLocation": "./.yarn/cache/@redocly-openapi-core-npm-1.34.6-4860c67e74-d643b9d98c.zip/node_modules/@redocly/openapi-core/",\
         "packageDependencies": [\
           ["@redocly/ajv", "npm:8.17.1"],\
           ["@redocly/config", "npm:0.22.2"],\
-          ["@redocly/openapi-core", "npm:1.34.5"],\
+          ["@redocly/openapi-core", "npm:1.34.6"],\
           ["colorette", "npm:1.4.0"],\
           ["https-proxy-agent", "npm:7.0.6"],\
           ["js-levenshtein", "npm:1.1.6"],\
@@ -2173,10 +2173,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["baseline-browser-mapping", [\
-      ["npm:2.9.4", {\
-        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.9.4-276222a1af-71cf80f822.zip/node_modules/baseline-browser-mapping/",\
+      ["npm:2.9.7", {\
+        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.9.7-fcb7e16891-870ff0c62b.zip/node_modules/baseline-browser-mapping/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.9.4"]\
+          ["baseline-browser-mapping", "npm:2.9.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2214,10 +2214,10 @@ const RAW_RUNTIME_STATE =
       ["npm:4.28.1", {\
         "packageLocation": "./.yarn/cache/browserslist-npm-4.28.1-e455c4c2e8-64f2a97de4.zip/node_modules/browserslist/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.9.4"],\
+          ["baseline-browser-mapping", "npm:2.9.7"],\
           ["browserslist", "npm:4.28.1"],\
-          ["caniuse-lite", "npm:1.0.30001759"],\
-          ["electron-to-chromium", "npm:1.5.266"],\
+          ["caniuse-lite", "npm:1.0.30001760"],\
+          ["electron-to-chromium", "npm:1.5.267"],\
           ["node-releases", "npm:2.0.27"],\
           ["update-browserslist-db", "virtual:e455c4c2e8dc3f3e2b2f64927f2b0dff7ca09ff7730ccbb69cae3e9342c0b24fae16e40b2aa46a2b677c172a1365ba425382266fccbf1e96179eec79a4a5c294#npm:1.2.2"]\
         ],\
@@ -2299,10 +2299,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001759", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001759-1f5e837824-da0ec28dd9.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001760", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001760-c4aa807132-ac5c13d00b.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001759"]\
+          ["caniuse-lite", "npm:1.0.30001760"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2583,10 +2583,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.266", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.266-b9515dd9f5-2c7e05d1df.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.267", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.267-b62f38d65a-05e55e810c.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.266"]\
+          ["electron-to-chromium", "npm:1.5.267"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4299,7 +4299,7 @@ const RAW_RUNTIME_STATE =
       ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.1", {\
         "packageLocation": "./.yarn/__virtual__/openapi-typescript-virtual-674a99d89e/0/cache/openapi-typescript-npm-7.10.1-0695e3203a-531627b682.zip/node_modules/openapi-typescript/",\
         "packageDependencies": [\
-          ["@redocly/openapi-core", "npm:1.34.5"],\
+          ["@redocly/openapi-core", "npm:1.34.6"],\
           ["@types/typescript", null],\
           ["ansi-colors", "npm:4.1.3"],\
           ["change-case", "npm:5.4.4"],\
