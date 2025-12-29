@@ -1243,7 +1243,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@jest-schemas-npm-30.0.5-e55a4c770e-40df4db55d.zip/node_modules/@jest/schemas/",\
         "packageDependencies": [\
           ["@jest/schemas", "npm:30.0.5"],\
-          ["@sinclair/typebox", "npm:0.34.41"]\
+          ["@sinclair/typebox", "npm:0.34.45"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1494,10 +1494,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@sinclair/typebox", [\
-      ["npm:0.34.41", {\
-        "packageLocation": "./.yarn/cache/@sinclair-typebox-npm-0.34.41-602ecca817-5c04a7f421.zip/node_modules/@sinclair/typebox/",\
+      ["npm:0.34.45", {\
+        "packageLocation": "./.yarn/cache/@sinclair-typebox-npm-0.34.45-fbf6e013fb-e8e1523de1.zip/node_modules/@sinclair/typebox/",\
         "packageDependencies": [\
-          ["@sinclair/typebox", "npm:0.34.41"]\
+          ["@sinclair/typebox", "npm:0.34.45"]\
         ],\
         "linkType": "HARD"\
       }]\
