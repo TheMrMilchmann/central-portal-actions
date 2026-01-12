@@ -1243,7 +1243,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@jest-schemas-npm-30.0.5-e55a4c770e-40df4db55d.zip/node_modules/@jest/schemas/",\
         "packageDependencies": [\
           ["@jest/schemas", "npm:30.0.5"],\
-          ["@sinclair/typebox", "npm:0.34.46"]\
+          ["@sinclair/typebox", "npm:0.34.47"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1494,10 +1494,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@sinclair/typebox", [\
-      ["npm:0.34.46", {\
-        "packageLocation": "./.yarn/cache/@sinclair-typebox-npm-0.34.46-abebaea2e7-3b92cc688e.zip/node_modules/@sinclair/typebox/",\
+      ["npm:0.34.47", {\
+        "packageLocation": "./.yarn/cache/@sinclair-typebox-npm-0.34.47-30d7744a2a-a7f279020a.zip/node_modules/@sinclair/typebox/",\
         "packageDependencies": [\
-          ["@sinclair/typebox", "npm:0.34.46"]\
+          ["@sinclair/typebox", "npm:0.34.47"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2173,10 +2173,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["baseline-browser-mapping", [\
-      ["npm:2.9.11", {\
-        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.9.11-39918188b7-d71fe6693f.zip/node_modules/baseline-browser-mapping/",\
+      ["npm:2.9.14", {\
+        "packageLocation": "./.yarn/cache/baseline-browser-mapping-npm-2.9.14-76c8c0db34-a329881e5f.zip/node_modules/baseline-browser-mapping/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.9.11"]\
+          ["baseline-browser-mapping", "npm:2.9.14"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2214,9 +2214,9 @@ const RAW_RUNTIME_STATE =
       ["npm:4.28.1", {\
         "packageLocation": "./.yarn/cache/browserslist-npm-4.28.1-e455c4c2e8-64f2a97de4.zip/node_modules/browserslist/",\
         "packageDependencies": [\
-          ["baseline-browser-mapping", "npm:2.9.11"],\
+          ["baseline-browser-mapping", "npm:2.9.14"],\
           ["browserslist", "npm:4.28.1"],\
-          ["caniuse-lite", "npm:1.0.30001762"],\
+          ["caniuse-lite", "npm:1.0.30001764"],\
           ["electron-to-chromium", "npm:1.5.267"],\
           ["node-releases", "npm:2.0.27"],\
           ["update-browserslist-db", "virtual:e455c4c2e8dc3f3e2b2f64927f2b0dff7ca09ff7730ccbb69cae3e9342c0b24fae16e40b2aa46a2b677c172a1365ba425382266fccbf1e96179eec79a4a5c294#npm:1.2.3"]\
@@ -2299,10 +2299,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001762", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001762-10b12126b2-d60a589180.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001764", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001764-b7ddad43f9-24c6f40290.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001762"]\
+          ["caniuse-lite", "npm:1.0.30001764"]\
         ],\
         "linkType": "HARD"\
       }]\
