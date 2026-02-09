@@ -38,7 +38,7 @@ const RAW_RUNTIME_STATE =
           ["jest-util", "npm:30.2.0"],\
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.15.0"],\
-          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.1"],\
+          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.12.0"],\
           ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.6"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
@@ -2312,7 +2312,7 @@ const RAW_RUNTIME_STATE =
           ["jest-util", "npm:30.2.0"],\
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.15.0"],\
-          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.1"],\
+          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.12.0"],\
           ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.6"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
@@ -4280,21 +4280,21 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["openapi-typescript", [\
-      ["npm:7.10.1", {\
-        "packageLocation": "./.yarn/cache/openapi-typescript-npm-7.10.1-0695e3203a-531627b682.zip/node_modules/openapi-typescript/",\
+      ["npm:7.12.0", {\
+        "packageLocation": "./.yarn/cache/openapi-typescript-npm-7.12.0-0ce62f4841-1bfb14c1e6.zip/node_modules/openapi-typescript/",\
         "packageDependencies": [\
-          ["openapi-typescript", "npm:7.10.1"]\
+          ["openapi-typescript", "npm:7.12.0"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.1", {\
-        "packageLocation": "./.yarn/__virtual__/openapi-typescript-virtual-674a99d89e/0/cache/openapi-typescript-npm-7.10.1-0695e3203a-531627b682.zip/node_modules/openapi-typescript/",\
+      ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/openapi-typescript-virtual-38476804f0/0/cache/openapi-typescript-npm-7.12.0-0ce62f4841-1bfb14c1e6.zip/node_modules/openapi-typescript/",\
         "packageDependencies": [\
           ["@redocly/openapi-core", "npm:1.34.6"],\
           ["@types/typescript", null],\
           ["ansi-colors", "npm:4.1.3"],\
           ["change-case", "npm:5.4.4"],\
-          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.10.1"],\
+          ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.12.0"],\
           ["parse-json", "npm:8.3.0"],\
           ["supports-color", "npm:10.2.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
