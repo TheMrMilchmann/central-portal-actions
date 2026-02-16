@@ -1,4 +1,4 @@
-import portalPublisherRequest, {PortalRequestOptions} from "./impl";
+import portalPublisherRequest, {PortalRequestOptions} from "./impl.js";
 
 export default async function dropDeployment(
     requestOptions: PortalRequestOptions,

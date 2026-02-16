@@ -1,5 +1,5 @@
 import * as core from "@actions/core";
-import {paths} from "./lib/central-publisher-api/v1";
+import {paths} from "./lib/central-publisher-api/v1.js";
 import createClient, {FetchResponse, Middleware} from "openapi-fetch";
 
 export interface PortalRequestOptions {
