@@ -27,7 +27,7 @@
   "author": "TheMrMilchmann",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^2.0.0",
+    "@actions/core": "^3.0.0",
     "node-fetch": "^3.0.0",
     "openapi-fetch": "^0.17.0"
   },
