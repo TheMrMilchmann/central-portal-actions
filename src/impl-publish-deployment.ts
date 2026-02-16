@@ -1,4 +1,4 @@
-import portalPublisherRequest, {PortalRequestOptions} from "./impl.js";
+import portalPublisherRequest, {PortalRequestOptions} from "./impl";
 
 export default async function publishDeployment(
     requestOptions: PortalRequestOptions,

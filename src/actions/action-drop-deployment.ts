@@ -1,6 +1,6 @@
 import * as core from "@actions/core";
-import * as constants from "../constants.js";
-import dropDeployment from "../impl-drop-deployment.js";
+import * as constants from "../constants";
+import dropDeployment from "../impl-drop-deployment";
 
 async function run(): Promise<void> {
     try {

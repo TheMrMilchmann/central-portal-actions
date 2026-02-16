@@ -2,7 +2,6 @@
   "name": "central-portal-actions",
   "version": "1.1.0",
   "private": true,
-  "type": "module",
   "description": "A set of GitHub Actions to automate publishing to Maven Central (via the Publisher API).",
   "scripts": {
     "build:generate": "yarn openapi-typescript third-party/central-publisher-api.json -o src/lib/central-publisher-api/v1.d.ts",
@@ -28,7 +27,7 @@
   "author": "TheMrMilchmann",
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^3.0.0",
+    "@actions/core": "^2.0.0",
     "node-fetch": "^3.0.0",
     "openapi-fetch": "^0.17.0"
   },

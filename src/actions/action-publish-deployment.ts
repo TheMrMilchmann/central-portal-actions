@@ -1,6 +1,6 @@
 import * as core from "@actions/core";
-import * as constants from "../constants.js";
-import publishDeployment from "../impl-publish-deployment.js";
+import * as constants from "../constants";
+import publishDeployment from "../impl-publish-deployment";
 
 async function run(): Promise<void> {
     try {
