@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:2.0.3"],\
           ["@types/jest", "npm:30.0.0"],\
-          ["@types/node", "npm:24.10.15"],\
+          ["@types/node", "npm:24.11.0"],\
           ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:30.2.0"],\
@@ -1626,10 +1626,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:24.10.15", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-24.10.15-79624e3f25-e6be2220f5.zip/node_modules/@types/node/",\
+      ["npm:24.11.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.11.0-e944c4230d-d2f4f898c6.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.10.15"],\
+          ["@types/node", "npm:24.11.0"],\
           ["undici-types", "npm:7.16.0"]\
         ],\
         "linkType": "HARD"\
@@ -2300,7 +2300,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:2.0.3"],\
           ["@types/jest", "npm:30.0.0"],\
-          ["@types/node", "npm:24.10.15"],\
+          ["@types/node", "npm:24.11.0"],\
           ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:30.2.0"],\
@@ -5000,7 +5000,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:24.10.15"],\
+          ["@types/node", "npm:24.11.0"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
