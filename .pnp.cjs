@@ -1458,17 +1458,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@redocly/openapi-core", [\
-      ["npm:1.34.8", {\
-        "packageLocation": "./.yarn/cache/@redocly-openapi-core-npm-1.34.8-5aaeee858d-f3b35c0cc3.zip/node_modules/@redocly/openapi-core/",\
+      ["npm:1.34.10", {\
+        "packageLocation": "./.yarn/cache/@redocly-openapi-core-npm-1.34.10-4c68ee48b6-a5d9986016.zip/node_modules/@redocly/openapi-core/",\
         "packageDependencies": [\
           ["@redocly/ajv", "npm:8.11.2"],\
           ["@redocly/config", "npm:0.22.0"],\
-          ["@redocly/openapi-core", "npm:1.34.8"],\
+          ["@redocly/openapi-core", "npm:1.34.10"],\
           ["colorette", "npm:1.4.0"],\
           ["https-proxy-agent", "npm:7.0.6"],\
           ["js-levenshtein", "npm:1.1.6"],\
-          ["js-yaml", "npm:4.1.0"],\
-          ["minimatch", "npm:5.1.6"],\
+          ["js-yaml", "npm:4.1.1"],\
+          ["minimatch", "npm:5.1.9"],\
           ["pluralize", "npm:8.0.0"],\
           ["yaml-ast-parser", "npm:0.0.43"]\
         ],\
@@ -2213,9 +2213,9 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["baseline-browser-mapping", "npm:2.10.0"],\
           ["browserslist", "npm:4.28.1"],\
-          ["caniuse-lite", "npm:1.0.30001775"],\
-          ["electron-to-chromium", "npm:1.5.302"],\
-          ["node-releases", "npm:2.0.27"],\
+          ["caniuse-lite", "npm:1.0.30001777"],\
+          ["electron-to-chromium", "npm:1.5.307"],\
+          ["node-releases", "npm:2.0.36"],\
           ["update-browserslist-db", "virtual:e455c4c2e8dc3f3e2b2f64927f2b0dff7ca09ff7730ccbb69cae3e9342c0b24fae16e40b2aa46a2b677c172a1365ba425382266fccbf1e96179eec79a4a5c294#npm:1.2.3"]\
         ],\
         "linkType": "HARD"\
@@ -2296,10 +2296,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["caniuse-lite", [\
-      ["npm:1.0.30001775", {\
-        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001775-abe3adffcc-422bb35abd.zip/node_modules/caniuse-lite/",\
+      ["npm:1.0.30001777", {\
+        "packageLocation": "./.yarn/cache/caniuse-lite-npm-1.0.30001777-9a10286060-4f71c57ac7.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
-          ["caniuse-lite", "npm:1.0.30001775"]\
+          ["caniuse-lite", "npm:1.0.30001777"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2580,10 +2580,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["electron-to-chromium", [\
-      ["npm:1.5.302", {\
-        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.302-39149026b5-0d31470d04.zip/node_modules/electron-to-chromium/",\
+      ["npm:1.5.307", {\
+        "packageLocation": "./.yarn/cache/electron-to-chromium-npm-1.5.307-c07e6b10d6-a72af3f89b.zip/node_modules/electron-to-chromium/",\
         "packageDependencies": [\
-          ["electron-to-chromium", "npm:1.5.302"]\
+          ["electron-to-chromium", "npm:1.5.307"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3767,11 +3767,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:4.1.0", {\
-        "packageLocation": "./.yarn/cache/js-yaml-npm-4.1.0-3606f32312-c138a34a3f.zip/node_modules/js-yaml/",\
+      ["npm:4.1.1", {\
+        "packageLocation": "./.yarn/cache/js-yaml-npm-4.1.1-86ec786790-a52d0519f0.zip/node_modules/js-yaml/",\
         "packageDependencies": [\
           ["argparse", "npm:2.0.1"],\
-          ["js-yaml", "npm:4.1.0"]\
+          ["js-yaml", "npm:4.1.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3968,11 +3968,11 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:5.1.6", {\
-        "packageLocation": "./.yarn/cache/minimatch-npm-5.1.6-1e71429f4c-126b36485b.zip/node_modules/minimatch/",\
+      ["npm:5.1.9", {\
+        "packageLocation": "./.yarn/cache/minimatch-npm-5.1.9-fc73125478-23b4feb64d.zip/node_modules/minimatch/",\
         "packageDependencies": [\
           ["brace-expansion", "npm:2.0.2"],\
-          ["minimatch", "npm:5.1.6"]\
+          ["minimatch", "npm:5.1.9"]\
         ],\
         "linkType": "HARD"\
       }],\
@@ -4173,7 +4173,7 @@ const RAW_RUNTIME_STATE =
           ["nopt", "npm:9.0.0"],\
           ["proc-log", "npm:6.1.0"],\
           ["semver", "npm:7.7.4"],\
-          ["tar", "npm:7.5.9"],\
+          ["tar", "npm:7.5.10"],\
           ["tinyglobby", "npm:0.2.15"],\
           ["which", "npm:6.0.1"]\
         ],\
@@ -4190,10 +4190,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["node-releases", [\
-      ["npm:2.0.27", {\
-        "packageLocation": "./.yarn/cache/node-releases-npm-2.0.27-b2d1b8de4a-f6c78ddb39.zip/node_modules/node-releases/",\
+      ["npm:2.0.36", {\
+        "packageLocation": "./.yarn/cache/node-releases-npm-2.0.36-8331fe9c1e-b31ead96e3.zip/node_modules/node-releases/",\
         "packageDependencies": [\
-          ["node-releases", "npm:2.0.27"]\
+          ["node-releases", "npm:2.0.36"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4268,7 +4268,7 @@ const RAW_RUNTIME_STATE =
       ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.13.0", {\
         "packageLocation": "./.yarn/__virtual__/openapi-typescript-virtual-aa8eba2d88/0/cache/openapi-typescript-npm-7.13.0-471c4b0028-5dc238f351.zip/node_modules/openapi-typescript/",\
         "packageDependencies": [\
-          ["@redocly/openapi-core", "npm:1.34.8"],\
+          ["@redocly/openapi-core", "npm:1.34.10"],\
           ["@types/typescript", null],\
           ["ansi-colors", "npm:4.1.3"],\
           ["change-case", "npm:5.4.4"],\
@@ -4830,14 +4830,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tar", [\
-      ["npm:7.5.9", {\
-        "packageLocation": "./.yarn/cache/tar-npm-7.5.9-dd42dd386e-1213cdde9c.zip/node_modules/tar/",\
+      ["npm:7.5.10", {\
+        "packageLocation": "./.yarn/cache/tar-npm-7.5.10-83147ff192-98ba6421a2.zip/node_modules/tar/",\
         "packageDependencies": [\
           ["@isaacs/fs-minipass", "npm:4.0.1"],\
           ["chownr", "npm:3.0.0"],\
           ["minipass", "npm:7.1.3"],\
           ["minizlib", "npm:3.1.0"],\
-          ["tar", "npm:7.5.9"],\
+          ["tar", "npm:7.5.10"],\
           ["yallist", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
