@@ -39,7 +39,7 @@ const RAW_RUNTIME_STATE =
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.17.0"],\
           ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.13.0"],\
-          ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.6"],\
+          ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.9"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
         ],\
@@ -2314,7 +2314,7 @@ const RAW_RUNTIME_STATE =
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.17.0"],\
           ["openapi-typescript", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.13.0"],\
-          ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.6"],\
+          ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.9"],\
           ["ts-node", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:10.9.2"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"]\
         ],\
@@ -4840,15 +4840,15 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["ts-jest", [\
-      ["npm:29.4.6", {\
-        "packageLocation": "./.yarn/cache/ts-jest-npm-29.4.6-a9cc323ce9-e0ff9e13f6.zip/node_modules/ts-jest/",\
+      ["npm:29.4.9", {\
+        "packageLocation": "./.yarn/cache/ts-jest-npm-29.4.9-f23c1a0803-f5e81b1e13.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
-          ["ts-jest", "npm:29.4.6"]\
+          ["ts-jest", "npm:29.4.9"]\
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.6", {\
-        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-ec49374ae9/0/cache/ts-jest-npm-29.4.6-a9cc323ce9-e0ff9e13f6.zip/node_modules/ts-jest/",\
+      ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.9", {\
+        "packageLocation": "./.yarn/__virtual__/ts-jest-virtual-10abaa6969/0/cache/ts-jest-npm-29.4.9-f23c1a0803-f5e81b1e13.zip/node_modules/ts-jest/",\
         "packageDependencies": [\
           ["@babel/core", null],\
           ["@jest/transform", null],\
@@ -4872,7 +4872,7 @@ const RAW_RUNTIME_STATE =
           ["lodash.memoize", "npm:4.1.2"],\
           ["make-error", "npm:1.3.6"],\
           ["semver", "npm:7.7.4"],\
-          ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.6"],\
+          ["ts-jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:29.4.9"],\
           ["type-fest", "npm:4.41.0"],\
           ["typescript", "patch:typescript@npm%3A5.9.3#optional!builtin<compat/typescript>::version=5.9.3&hash=5786d5"],\
           ["yargs-parser", "npm:21.1.1"]\
