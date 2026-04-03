@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:2.0.3"],\
           ["@types/jest", "npm:30.0.0"],\
-          ["@types/node", "npm:24.12.0"],\
+          ["@types/node", "npm:24.12.2"],\
           ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:30.3.0"],\
@@ -1024,7 +1024,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@jest/console", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["chalk", "npm:4.1.2"],\
           ["jest-message-util", "npm:30.3.0"],\
           ["jest-util", "npm:30.3.0"],\
@@ -1051,7 +1051,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-result", "npm:30.3.0"],\
           ["@jest/transform", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["@types/node-notifier", null],\
           ["ansi-escapes", "npm:4.3.2"],\
           ["chalk", "npm:4.1.2"],\
@@ -1098,7 +1098,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/environment", "npm:30.3.0"],\
           ["@jest/fake-timers", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["jest-mock", "npm:30.3.0"]\
         ],\
         "linkType": "HARD"\
@@ -1132,7 +1132,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/fake-timers", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
           ["@sinonjs/fake-timers", "npm:15.1.1"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["jest-message-util", "npm:30.3.0"],\
           ["jest-mock", "npm:30.3.0"],\
           ["jest-util", "npm:30.3.0"]\
@@ -1167,7 +1167,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@jest-pattern-npm-30.0.1-2ce04a6497-afd03b4d3e.zip/node_modules/@jest/pattern/",\
         "packageDependencies": [\
           ["@jest/pattern", "npm:30.0.1"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["jest-regex-util", "npm:30.0.1"]\
         ],\
         "linkType": "HARD"\
@@ -1191,7 +1191,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/transform", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
           ["@jridgewell/trace-mapping", "npm:0.3.31"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["@types/node-notifier", null],\
           ["chalk", "npm:4.1.2"],\
           ["collect-v8-coverage", "npm:1.0.3"],\
@@ -1311,7 +1311,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/types", "npm:30.3.0"],\
           ["@types/istanbul-lib-coverage", "npm:2.0.6"],\
           ["@types/istanbul-reports", "npm:3.0.4"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["@types/yargs", "npm:17.0.35"],\
           ["chalk", "npm:4.1.2"]\
         ],\
@@ -1642,18 +1642,18 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:24.12.0", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-24.12.0-ce6de09e0d-e9dcf8a378.zip/node_modules/@types/node/",\
+      ["npm:24.12.2", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.12.2-c1d68de38c-99b9f15e67.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.12.0"],\
+          ["@types/node", "npm:24.12.2"],\
           ["undici-types", "npm:7.16.0"]\
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:25.5.0", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-25.5.0-49c7b83d02-b1e8116bd8.zip/node_modules/@types/node/",\
+      ["npm:25.5.2", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-25.5.2-cef63bb6b3-11782030f9.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["undici-types", "npm:7.18.2"]\
         ],\
         "linkType": "HARD"\
@@ -2305,7 +2305,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:2.0.3"],\
           ["@types/jest", "npm:30.0.0"],\
-          ["@types/node", "npm:24.12.0"],\
+          ["@types/node", "npm:24.12.2"],\
           ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["jest", "virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:30.3.0"],\
@@ -3217,7 +3217,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/expect", "npm:30.3.0"],\
           ["@jest/test-result", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["chalk", "npm:4.1.2"],\
           ["co", "npm:4.6.0"],\
           ["dedent", "virtual:aba63e8d1f37058affcb34beb7401b16f9e85cebe2a66753914200e15db0e71d08d6f5b5278df4607e3f439976ac560ebe363981991224085e758eebe3c8df11#npm:1.7.2"],\
@@ -3287,7 +3287,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-sequencer", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
           ["@types/esbuild-register", null],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["@types/ts-node", null],\
           ["babel-jest", "virtual:c47f6749a299528dfe7abf430271b72e69708751e3f22aee8beaea6af014049f7030b71b9e397644250e400b30a4f188feaf97c5b794365e64f0a2f8582589ca#npm:30.3.0"],\
           ["chalk", "npm:4.1.2"],\
@@ -3407,7 +3407,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/environment", "npm:30.3.0"],\
           ["@jest/fake-timers", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["jest-environment-node", "npm:30.3.0"],\
           ["jest-mock", "npm:30.3.0"],\
           ["jest-util", "npm:30.3.0"],\
@@ -3432,7 +3432,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/jest-haste-map-npm-30.3.0-d5b70c9560-0e0cc449d5.zip/node_modules/jest-haste-map/",\
         "packageDependencies": [\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["anymatch", "npm:3.1.3"],\
           ["fb-watchman", "npm:2.0.2"],\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
@@ -3494,7 +3494,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/jest-mock-npm-30.3.0-690365e17f-9d2a9e52c2.zip/node_modules/jest-mock/",\
         "packageDependencies": [\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["jest-mock", "npm:30.3.0"],\
           ["jest-util", "npm:30.3.0"]\
         ],\
@@ -3569,7 +3569,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-result", "npm:30.3.0"],\
           ["@jest/transform", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["chalk", "npm:4.1.2"],\
           ["emittery", "npm:0.13.1"],\
           ["exit-x", "npm:0.2.2"],\
@@ -3602,7 +3602,7 @@ const RAW_RUNTIME_STATE =
           ["@jest/test-result", "npm:30.3.0"],\
           ["@jest/transform", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["chalk", "npm:4.1.2"],\
           ["cjs-module-lexer", "npm:2.2.0"],\
           ["collect-v8-coverage", "npm:1.0.3"],\
@@ -3657,7 +3657,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/jest-util-npm-30.3.0-e6757c9145-4b01600463.zip/node_modules/jest-util/",\
         "packageDependencies": [\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["chalk", "npm:4.1.2"],\
           ["ci-info", "npm:4.4.0"],\
           ["graceful-fs", "npm:4.2.11"],\
@@ -3688,7 +3688,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@jest/test-result", "npm:30.3.0"],\
           ["@jest/types", "npm:30.3.0"],\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["ansi-escapes", "npm:4.3.2"],\
           ["chalk", "npm:4.1.2"],\
           ["emittery", "npm:0.13.1"],\
@@ -3703,7 +3703,7 @@ const RAW_RUNTIME_STATE =
       ["npm:30.3.0", {\
         "packageLocation": "./.yarn/cache/jest-worker-npm-30.3.0-484ff75bb4-6198e74626.zip/node_modules/jest-worker/",\
         "packageDependencies": [\
-          ["@types/node", "npm:25.5.0"],\
+          ["@types/node", "npm:25.5.2"],\
           ["@ungap/structured-clone", "npm:1.3.0"],\
           ["jest-util", "npm:30.3.0"],\
           ["jest-worker", "npm:30.3.0"],\
@@ -4916,7 +4916,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:24.12.0"],\
+          ["@types/node", "npm:24.12.2"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
