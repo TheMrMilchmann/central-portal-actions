@@ -427,21 +427,21 @@ __metadata:
   linkType: hard
 
 "@emnapi/core@npm:^1.4.3":
-  version: 1.9.2
-  resolution: "@emnapi/core@npm:1.9.2"
+  version: 1.10.0
+  resolution: "@emnapi/core@npm:1.10.0"
   dependencies:
     "@emnapi/wasi-threads": "npm:1.2.1"
     tslib: "npm:^2.4.0"
-  checksum: 10/32084861f306b405f10f3ae13d1a49fa75650bdaaa40704892c397856815fe5d3781670d2662806d39c2d8a19bb62826dd7b870a79858f7be77500d9d0d3d91a
+  checksum: 10/d32f386084e64deaf2609aabb8295d1ad5af6144d0f46d2060b76cc53f1f3b486df54bec9b0f33c37d85a3822e1193ebcd4e3deb4a5f0e4cd650aa2ffc631715
   languageName: node
   linkType: hard
 
 "@emnapi/runtime@npm:^1.4.3":
-  version: 1.9.2
-  resolution: "@emnapi/runtime@npm:1.9.2"
+  version: 1.10.0
+  resolution: "@emnapi/runtime@npm:1.10.0"
   dependencies:
     tslib: "npm:^2.4.0"
-  checksum: 10/de123d6b7acdbe34bf997523be761e5ae6d8f9b3967b72e8e50ff7dd1791a2a0d2b9fb0d7d92230b0738502980ea6f947189b7c1f47814ff666515a55c6fff48
+  checksum: 10/d21083d07fa0c2da171c142e78ef986b66b07d45b06accc0bcaf49fcc61bb4dbc10e1c1760813070165b9f49b054376a931045347f21c0f42ff1eb2d2040faac
   languageName: node
   linkType: hard
 
@@ -498,9 +498,9 @@ __metadata:
   linkType: hard
 
 "@istanbuljs/schema@npm:^0.1.2, @istanbuljs/schema@npm:^0.1.3":
-  version: 0.1.3
-  resolution: "@istanbuljs/schema@npm:0.1.3"
-  checksum: 10/a9b1e49acdf5efc2f5b2359f2df7f90c5c725f2656f16099e8b2cd3a000619ecca9fc48cf693ba789cf0fd989f6e0df6a22bc05574be4223ecdbb7997d04384b
+  version: 0.1.6
+  resolution: "@istanbuljs/schema@npm:0.1.6"
+  checksum: 10/966e1a80b0e52170d4b3b9fa75e1aa5f2cf01138416c828c249dcfc75706a32b13022dc8d06b7aab6ea6a80b63927d3e546ad04f005188fef20b3d2cbbf2b229
   languageName: node
   linkType: hard
 
@@ -1453,11 +1453,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.10.12":
-  version: 2.10.18
-  resolution: "baseline-browser-mapping@npm:2.10.18"
+  version: 2.10.20
+  resolution: "baseline-browser-mapping@npm:2.10.20"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10/b0babff57a53539fc5f8b757dc224a2d1296ec7c91975373da70757041a03d797bc09a13820bfb4e6ce363cc1cf84b6b3649abc7fd912aa9104bc693bc714e50
+  checksum: 10/75854e3381fc3782dba6561d4be9b307694f2b1659396edb997fc2a1b48835dd29f89de1e8837463665b5983978e827398be20f8bfb0301ca08f73a4c15de955
   languageName: node
   linkType: hard
 
@@ -1569,9 +1569,9 @@ __metadata:
   linkType: hard
 
 "caniuse-lite@npm:^1.0.30001782":
-  version: 1.0.30001787
-  resolution: "caniuse-lite@npm:1.0.30001787"
-  checksum: 10/2b3a2400b21d89123f13b7a8a7ad58dbdeb9971b62e33f43712d7209b69656f8bfd8ab67ab760c12e5fa7967b18c108ca67d7f20b7c7ccf039621f7db56baecf
+  version: 1.0.30001788
+  resolution: "caniuse-lite@npm:1.0.30001788"
+  checksum: 10/bead3aa7e9795335396953305e9e791514960151fc24b665a09751d27d348d4de6e147a749ba5258921f32b1170f7db798099142a40db3d61f8d586f410f298a
   languageName: node
   linkType: hard
 
@@ -1789,9 +1789,9 @@ __metadata:
   linkType: hard
 
 "electron-to-chromium@npm:^1.5.328":
-  version: 1.5.335
-  resolution: "electron-to-chromium@npm:1.5.335"
-  checksum: 10/d46b5f490d9232d8a2ca7b6f0e94789a087fba578d80c8872ce84f0d0dc7411969668f023fae3fdc78fefc3f60cdfe0ecb315fe16307b9f730d9c000306910ec
+  version: 1.5.340
+  resolution: "electron-to-chromium@npm:1.5.340"
+  checksum: 10/ab445f113b9bded3fddc7105e3ff0239263cec0ebb4a3e566ed583e85b1eef2c3340b8d160cc9e783c7ae1d0c06288ed892d6891b9fe88a4c24755f3da70357c
   languageName: node
   linkType: hard
 
@@ -2872,9 +2872,9 @@ __metadata:
   linkType: hard
 
 "lru-cache@npm:^11.0.0, lru-cache@npm:^11.1.0, lru-cache@npm:^11.2.1":
-  version: 11.3.3
-  resolution: "lru-cache@npm:11.3.3"
-  checksum: 10/d45c1992232d0ab6ee5a9b93f62f43205ba5eeca51b2cfe6fa40a6aeb91b3cb0a318b273ab29ab36b66f779d4111df514c01bb7613ca4d4028953de49ecb82a9
+  version: 11.3.5
+  resolution: "lru-cache@npm:11.3.5"
+  checksum: 10/3701b77e87765a3aea453402a7850bdbf7e02445210f35bd5ba1561f601f605f488bf9932be4a3851a6664073924f671a1ec99c4a1a98c457e0d126872a3e04f
   languageName: node
   linkType: hard
 
@@ -3914,9 +3914,9 @@ __metadata:
   linkType: hard
 
 "undici@npm:^6.23.0":
-  version: 6.24.1
-  resolution: "undici@npm:6.24.1"
-  checksum: 10/4f84e6045520eef9ba8eabb96360b50c759f59905c1703b12187c2dbcc6d1584c5d7ecddeb45b0ed6cac84ca2d132b21bfd8a38f77fa30378b1ac5d2ae390fd9
+  version: 6.25.0
+  resolution: "undici@npm:6.25.0"
+  checksum: 10/a475e45da3e1d1073283bb70531666f09a432eabff2b857bd7063d469a1ee1486192ff61dc0dadbb526673ce1120fee14d66a59b6b17d1e0bd3a4d5f0a52d0a6
   languageName: node
   linkType: hard
 
