@@ -1,6 +1,6 @@
 import * as core from "@actions/core";
-import * as constants from "../constants";
-import uploadDeployment from "../impl-upload-deployment";
+import * as constants from "../constants.js";
+import uploadDeployment from "../impl-upload-deployment.js";
 
 async function run() {
     function parsePublishingType(): "AUTOMATIC" | "USER_MANAGED" {

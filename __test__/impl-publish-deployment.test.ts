@@ -1,7 +1,7 @@
-import fetchMock, { enableFetchMocks } from "jest-fetch-mock";
-enableFetchMocks();
+import { vi, beforeEach, test, expect } from "vitest";
+vi.stubGlobal("fetch", vi.fn());
 
-import publishDeployment from "../src/impl-publish-deployment";
+import publishDeployment from "../src/impl-publish-deployment.js";
 
 const DEPLOYMENT_ID = "28570f16-da32-4c14-bd2e-c1acc0782365";
 const BASE_URL = "https://example.com";
@@ -13,44 +13,30 @@ const AUTH_PARAMS = {
 };
 
 beforeEach(() => {
-    fetchMock.resetMocks();
+    vi.mocked(fetch).mockReset();
 });
 
-test("Success: should call the correct URL with POST ", async () => {
-    // Arrange: Mock a successful response
-    fetchMock.mockResponse("", { status: 204 });
+test("Success: should call the correct URL with POST", async () => {
+    vi.mocked(fetch).mockResolvedValueOnce(new Response(null, { status: 204 }));
 
-    // Act: Call the function
-    await publishDeployment(
-        AUTH_PARAMS,
-        DEPLOYMENT_ID
-    );
+    await publishDeployment(AUTH_PARAMS, DEPLOYMENT_ID);
 
-    // Assert: Verify the fetch call details
-    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetch).toHaveBeenCalledTimes(1);
 
-    const request = fetchMock.mock.calls[0][0] as Request;
-
+    const request = vi.mocked(fetch).mock.calls[0][0] as Request;
     expect(request.url).toEqual(EXPECTED_URL);
     expect(request.method).toEqual("POST");
     expect(request.body).toEqual(null);
 });
 
 test("Unauthorized: should throw an error when receiving a 401 status", async () => {
-    // Arrange: Mock an unauthorized response
-    fetchMock.mockResponse("", { status: 401 });
+    vi.mocked(fetch).mockResolvedValueOnce(new Response("", { status: 401 }));
 
-    // Act & Assert: Check that the function call rejects with an error
-    await expect(publishDeployment(
-        AUTH_PARAMS,
-        DEPLOYMENT_ID
-    )).rejects.toThrow();
+    await expect(publishDeployment(AUTH_PARAMS, DEPLOYMENT_ID)).rejects.toThrow();
 
-    // Assert: Verify the fetch call was still made correctly
-    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetch).toHaveBeenCalledTimes(1);
 
-    const request = fetchMock.mock.calls[0][0] as Request;
-
+    const request = vi.mocked(fetch).mock.calls[0][0] as Request;
     expect(request.url).toEqual(EXPECTED_URL);
     expect(request.method).toEqual("POST");
     expect(request.body).toEqual(null);

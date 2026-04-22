@@ -1,12 +1,11 @@
-import fetchMock, {enableFetchMocks} from "jest-fetch-mock";
-enableFetchMocks();
+import { vi, afterAll, beforeAll, beforeEach, test, expect } from "vitest";
+vi.stubGlobal("fetch", vi.fn());
 
-import uploadDeployment from "../src/impl-upload-deployment";
+import uploadDeployment from "../src/impl-upload-deployment.js";
 
-
-jest.mock("node:fs", () => ({
-    ...jest.requireActual("node:fs"),
-    openAsBlob: jest.fn().mockResolvedValue(new Blob([""]))
+vi.mock("node:fs", async (importOriginal) => ({
+    ...await importOriginal<typeof import("node:fs")>(),
+    openAsBlob: vi.fn().mockResolvedValue(new Blob([""]))
 }));
 
 const DEPLOYMENT_ID = "28570f16-da32-4c14-bd2e-c1acc0782365";
@@ -18,26 +17,25 @@ const AUTH_PARAMS = {
 };
 
 beforeAll(() => {
-    jest.useFakeTimers();
+    vi.useFakeTimers();
 });
 
 beforeEach(() => {
-    fetchMock.resetMocks();
-    jest.clearAllMocks();
+    vi.mocked(fetch).mockReset();
+    vi.clearAllMocks();
 });
 
 afterAll(() => {
     // Restore real timers after all tests in this file
-    jest.useRealTimers();
+    vi.useRealTimers();
 });
 
 test("Success: Uploads and gets VALIDATED status on first poll", async () => {
-    fetchMock.mockResponses(
+    vi.mocked(fetch)
         // First response for POST /api/v1/publisher/upload
-        [DEPLOYMENT_ID, { status: 201 }],
+        .mockResolvedValueOnce(new Response(DEPLOYMENT_ID, { status: 201 }))
         // Second response for POST /api/v1/publisher/status
-        [JSON.stringify({ deploymentState: "VALIDATED" }), { status: 200 }]
-    );
+        .mockResolvedValueOnce(new Response(JSON.stringify({ deploymentState: "VALIDATED" }), { status: 200 }));
 
     const uploadPromise = uploadDeployment(
         AUTH_PARAMS,
@@ -48,35 +46,34 @@ test("Success: Uploads and gets VALIDATED status on first poll", async () => {
     );
 
     // Advance timers to trigger the first polling call
-    await jest.advanceTimersByTimeAsync(10_000);
+    await vi.advanceTimersByTimeAsync(10_000);
 
     const deploymentId = await uploadPromise;
 
     // Assertions
     expect(deploymentId).toEqual(DEPLOYMENT_ID);
-    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(fetch).toHaveBeenCalledTimes(2);
 
     // Check the first call (upload)
-    const uploadCall = fetchMock.mock.calls[0][0] as Request;
+    const uploadCall = vi.mocked(fetch).mock.calls[0][0] as Request;
     expect(uploadCall.url).toEqual("https://example.com/api/v1/publisher/upload?name=My%20Deployment&publishingType=USER_MANAGED");
     expect(uploadCall.method).toEqual("POST");
 
     // Check the second call (status)
-    const statusCall = fetchMock.mock.calls[1][0] as Request;
+    const statusCall = vi.mocked(fetch).mock.calls[1][0] as Request;
     expect(statusCall.url).toEqual(`https://example.com/api/v1/publisher/status?id=${DEPLOYMENT_ID}`);
     expect(statusCall.method).toEqual("POST");
 });
 
 test("Failure: Throws error if deployment FAILED", async () => {
-    fetchMock.mockResponses(
+    vi.mocked(fetch)
         // First response for POST /upload
-        [DEPLOYMENT_ID, { status: 201 }],
+        .mockResolvedValueOnce(new Response(DEPLOYMENT_ID, { status: 201 }))
         // Second response for POST /status
-        [JSON.stringify({ deploymentState: "FAILED" }), { status: 200 }]
-    );
+        .mockResolvedValueOnce(new Response(JSON.stringify({ deploymentState: "FAILED" }), { status: 200 }));
 
     // noinspection ES6MissingAwait
-    jest.advanceTimersByTimeAsync(10_000);
+    vi.advanceTimersByTimeAsync(10_000);
 
     // We expect the promise to reject. Wrap the timer advancement in the check.
     await expect(uploadDeployment(
@@ -88,12 +85,11 @@ test("Failure: Throws error if deployment FAILED", async () => {
     )).rejects.toThrow();
 
     // Assert that the network calls were made
-    expect(fetchMock).toHaveBeenCalledTimes(2);
+    expect(fetch).toHaveBeenCalledTimes(2);
 });
 
 test("Failure: Throws error on initial upload (e.g., 401 Unauthorized)", async () => {
-    // Mock a single failure response for the first call
-    fetchMock.mockResponse("", { status: 401 });
+    vi.mocked(fetch).mockResolvedValueOnce(new Response(null, { status: 401 }));
 
     await expect(uploadDeployment(
         AUTH_PARAMS,
@@ -104,5 +100,5 @@ test("Failure: Throws error on initial upload (e.g., 401 Unauthorized)", async (
     )).rejects.toThrow();
 
     // Assert that only one network call was attempted
-    expect(fetchMock).toHaveBeenCalledTimes(1);
+    expect(fetch).toHaveBeenCalledTimes(1);
 });
