@@ -243,12 +243,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@redocly/openapi-core", [\
-      ["npm:1.34.12", {\
-        "packageLocation": "./.yarn/cache/@redocly-openapi-core-npm-1.34.12-36c78414b1-71905a5409.zip/node_modules/@redocly/openapi-core/",\
+      ["npm:1.34.14", {\
+        "packageLocation": "./.yarn/cache/@redocly-openapi-core-npm-1.34.14-45e5c109b3-778ddddf7c.zip/node_modules/@redocly/openapi-core/",\
         "packageDependencies": [\
           ["@redocly/ajv", "npm:8.11.2"],\
           ["@redocly/config", "npm:0.22.0"],\
-          ["@redocly/openapi-core", "npm:1.34.12"],\
+          ["@redocly/openapi-core", "npm:1.34.14"],\
           ["colorette", "npm:1.4.0"],\
           ["https-proxy-agent", "npm:7.0.6"],\
           ["js-levenshtein", "npm:1.1.6"],\
@@ -1185,10 +1185,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nanoid", [\
-      ["npm:3.3.11", {\
-        "packageLocation": "./.yarn/cache/nanoid-npm-3.3.11-f98c1f9ef6-73b5afe597.zip/node_modules/nanoid/",\
+      ["npm:3.3.12", {\
+        "packageLocation": "./.yarn/cache/nanoid-npm-3.3.12-41f8e0bb94-6eec280694.zip/node_modules/nanoid/",\
         "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"]\
+          ["nanoid", "npm:3.3.12"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1273,7 +1273,7 @@ const RAW_RUNTIME_STATE =
       ["virtual:b6188b6e11043fb2c3a97c1a063eddb2117ec27aea54252ab2b641438dd49c16a34b191e1542f7b2611a3a3d62346e9a69066f68cf4b5b87c25e68b082e920de#npm:7.13.0", {\
         "packageLocation": "./.yarn/__virtual__/openapi-typescript-virtual-aa8eba2d88/0/cache/openapi-typescript-npm-7.13.0-471c4b0028-5dc238f351.zip/node_modules/openapi-typescript/",\
         "packageDependencies": [\
-          ["@redocly/openapi-core", "npm:1.34.12"],\
+          ["@redocly/openapi-core", "npm:1.34.14"],\
           ["@types/typescript", null],\
           ["ansi-colors", "npm:4.1.3"],\
           ["change-case", "npm:5.4.4"],\
@@ -1348,12 +1348,12 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["postcss", [\
-      ["npm:8.5.12", {\
-        "packageLocation": "./.yarn/cache/postcss-npm-8.5.12-9e3c2c1a24-ec6b79b68c.zip/node_modules/postcss/",\
+      ["npm:8.5.13", {\
+        "packageLocation": "./.yarn/cache/postcss-npm-8.5.13-a1d77c1b0b-4763873c0a.zip/node_modules/postcss/",\
         "packageDependencies": [\
-          ["nanoid", "npm:3.3.11"],\
+          ["nanoid", "npm:3.3.12"],\
           ["picocolors", "npm:1.1.1"],\
-          ["postcss", "npm:8.5.12"],\
+          ["postcss", "npm:8.5.13"],\
           ["source-map-js", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
@@ -1481,10 +1481,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tinyexec", [\
-      ["npm:1.1.1", {\
-        "packageLocation": "./.yarn/cache/tinyexec-npm-1.1.1-2c004eba64-480bbd7b0c.zip/node_modules/tinyexec/",\
+      ["npm:1.1.2", {\
+        "packageLocation": "./.yarn/cache/tinyexec-npm-1.1.2-1bfd8015d0-2bbe37f900.zip/node_modules/tinyexec/",\
         "packageDependencies": [\
-          ["tinyexec", "npm:1.1.1"]\
+          ["tinyexec", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1656,7 +1656,7 @@ const RAW_RUNTIME_STATE =
           ["less", null],\
           ["lightningcss", "npm:1.32.0"],\
           ["picomatch", "npm:4.0.4"],\
-          ["postcss", "npm:8.5.12"],\
+          ["postcss", "npm:8.5.13"],\
           ["rolldown", "npm:1.0.0-rc.17"],\
           ["sass", null],\
           ["sass-embedded", null],\
@@ -1744,7 +1744,7 @@ const RAW_RUNTIME_STATE =
           ["picomatch", "npm:4.0.4"],\
           ["std-env", "npm:4.1.0"],\
           ["tinybench", "npm:2.9.0"],\
-          ["tinyexec", "npm:1.1.1"],\
+          ["tinyexec", "npm:1.1.2"],\
           ["tinyglobby", "npm:0.2.16"],\
           ["tinyrainbow", "npm:3.1.0"],\
           ["vite", "virtual:7ea81349b950a3e6a114663aa4b65c3e5b60b1778b00244b0a9061f5df1034a8dd15aa5de1fd9a5ffbdefed4f5ca791b331bc73929e5b7e8b98b333465c98eda#npm:8.0.10"],\
