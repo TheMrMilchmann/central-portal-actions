@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@actions/core", "npm:3.0.1"],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.0"],\
           ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
@@ -492,11 +492,11 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:24.12.4", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-24.12.4-fb0c00261b-4e5ce6faaf.zip/node_modules/@types/node/",\
+      ["npm:24.13.0", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.13.0-87e4827cd6-13e69ffde5.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.12.4"],\
-          ["undici-types", "npm:7.16.0"]\
+          ["@types/node", "npm:24.13.0"],\
+          ["undici-types", "npm:7.18.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -707,7 +707,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@actions/core", "npm:3.0.1"],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.0"],\
           ["@vercel/ncc", "npm:0.38.4"],\
           ["central-portal-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
@@ -1527,7 +1527,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.0"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -1600,10 +1600,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici-types", [\
-      ["npm:7.16.0", {\
-        "packageLocation": "./.yarn/cache/undici-types-npm-7.16.0-0e23b08124-db43439f69.zip/node_modules/undici-types/",\
+      ["npm:7.18.2", {\
+        "packageLocation": "./.yarn/cache/undici-types-npm-7.18.2-3e6d69d829-e61a5918f6.zip/node_modules/undici-types/",\
         "packageDependencies": [\
-          ["undici-types", "npm:7.16.0"]\
+          ["undici-types", "npm:7.18.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1640,7 +1640,7 @@ const RAW_RUNTIME_STATE =
           ["@types/esbuild", null],\
           ["@types/jiti", null],\
           ["@types/less", null],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.0"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -1712,7 +1712,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:24.12.4"],\
+          ["@types/node", "npm:24.13.0"],\
           ["@types/opentelemetry__api", null],\
           ["@types/vite", null],\
           ["@types/vitest__browser-playwright", null],\
