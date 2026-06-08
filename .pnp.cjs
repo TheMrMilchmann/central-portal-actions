@@ -506,7 +506,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.38.4-c7f6d7c3e6-06561fb3fd.zip/node_modules/@vercel/ncc/",\
         "packageDependencies": [\
           ["@vercel/ncc", "npm:0.38.4"],\
-          ["node-gyp", "npm:12.3.0"]\
+          ["node-gyp", "npm:12.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -927,7 +927,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./.yarn/unplugged/fsevents-patch-6b67494872/node_modules/fsevents/",\
         "packageDependencies": [\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"],\
-          ["node-gyp", "npm:12.3.0"]\
+          ["node-gyp", "npm:12.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1215,17 +1215,17 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["node-gyp", [\
-      ["npm:12.3.0", {\
-        "packageLocation": "./.yarn/unplugged/node-gyp-npm-12.3.0-82a454c18d/node_modules/node-gyp/",\
+      ["npm:12.4.0", {\
+        "packageLocation": "./.yarn/unplugged/node-gyp-npm-12.4.0-f7babd45bd/node_modules/node-gyp/",\
         "packageDependencies": [\
           ["env-paths", "npm:2.2.1"],\
           ["exponential-backoff", "npm:3.1.3"],\
           ["graceful-fs", "npm:4.2.11"],\
-          ["node-gyp", "npm:12.3.0"],\
+          ["node-gyp", "npm:12.4.0"],\
           ["nopt", "npm:9.0.0"],\
           ["proc-log", "npm:6.1.0"],\
-          ["semver", "npm:7.8.1"],\
-          ["tar", "npm:7.5.15"],\
+          ["semver", "npm:7.8.2"],\
+          ["tar", "npm:7.5.16"],\
           ["tinyglobby", "npm:0.2.17"],\
           ["undici", "npm:6.26.0"],\
           ["which", "npm:6.0.1"]\
@@ -1244,10 +1244,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["obug", [\
-      ["npm:2.1.1", {\
-        "packageLocation": "./.yarn/cache/obug-npm-2.1.1-029730d296-bdcf921336.zip/node_modules/obug/",\
+      ["npm:2.1.2", {\
+        "packageLocation": "./.yarn/cache/obug-npm-2.1.2-61eecb6456-2f9f66af8c.zip/node_modules/obug/",\
         "packageDependencies": [\
-          ["obug", "npm:2.1.1"]\
+          ["obug", "npm:2.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1404,10 +1404,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["semver", [\
-      ["npm:7.8.1", {\
-        "packageLocation": "./.yarn/cache/semver-npm-7.8.1-9448873cc9-3244f6c4cb.zip/node_modules/semver/",\
+      ["npm:7.8.2", {\
+        "packageLocation": "./.yarn/cache/semver-npm-7.8.2-d4832567a9-52221d8f1c.zip/node_modules/semver/",\
         "packageDependencies": [\
-          ["semver", "npm:7.8.1"]\
+          ["semver", "npm:7.8.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1458,14 +1458,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tar", [\
-      ["npm:7.5.15", {\
-        "packageLocation": "./.yarn/cache/tar-npm-7.5.15-f915901510-b4cb6acd82.zip/node_modules/tar/",\
+      ["npm:7.5.16", {\
+        "packageLocation": "./.yarn/cache/tar-npm-7.5.16-628307afc6-fafa22efce.zip/node_modules/tar/",\
         "packageDependencies": [\
           ["@isaacs/fs-minipass", "npm:4.0.1"],\
           ["chownr", "npm:3.0.0"],\
           ["minipass", "npm:7.1.3"],\
           ["minizlib", "npm:3.1.0"],\
-          ["tar", "npm:7.5.15"],\
+          ["tar", "npm:7.5.16"],\
           ["yallist", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -1739,7 +1739,7 @@ const RAW_RUNTIME_STATE =
           ["happy-dom", null],\
           ["jsdom", null],\
           ["magic-string", "npm:0.30.21"],\
-          ["obug", "npm:2.1.1"],\
+          ["obug", "npm:2.1.2"],\
           ["pathe", "npm:2.0.3"],\
           ["picomatch", "npm:4.0.4"],\
           ["std-env", "npm:4.1.0"],\
