@@ -377,14 +377,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vercel/ncc@npm:^0.38.1":
-  version: 0.38.4
-  resolution: "@vercel/ncc@npm:0.38.4"
+"@vercel/ncc@npm:^0.44.0":
+  version: 0.44.0
+  resolution: "@vercel/ncc@npm:0.44.0"
   dependencies:
     node-gyp: "npm:latest"
   bin:
     ncc: dist/ncc/cli.js
-  checksum: 10/06561fb3fd46c4db525ea1c9f39b7982e449e9a1995e94d8f5b876c939147c31dba0ca5ffaed4b30ebc6782ffbde531b3f01658996bdaaecb3928df5b1aec155
+  checksum: 10/6a2a53b5df278b530387cee0644c7cf06aa2ff3aed4b6fc418af6789d3727334e3a0c892283170d80ed3b3919f7ed806f8993df763d1fd05439d962a5b9e4a45
   languageName: node
   linkType: hard
 
@@ -552,7 +552,7 @@ __metadata:
   dependencies:
     "@actions/core": "npm:^3.0.0"
     "@types/node": "npm:^24.3.0"
-    "@vercel/ncc": "npm:^0.38.1"
+    "@vercel/ncc": "npm:^0.44.0"
     node-fetch: "npm:^3.0.0"
     openapi-fetch: "npm:^0.17.0"
     openapi-typescript: "npm:^7.8.0"
