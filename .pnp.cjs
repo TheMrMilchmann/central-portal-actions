@@ -69,7 +69,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/http-client", "npm:4.0.1"],\
           ["tunnel", "npm:0.0.6"],\
-          ["undici", "npm:6.26.0"]\
+          ["undici", "npm:6.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1185,10 +1185,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["nanoid", [\
-      ["npm:3.3.12", {\
-        "packageLocation": "./.yarn/cache/nanoid-npm-3.3.12-41f8e0bb94-6eec280694.zip/node_modules/nanoid/",\
+      ["npm:3.3.14", {\
+        "packageLocation": "./.yarn/cache/nanoid-npm-3.3.14-4d320784a8-0038630e23.zip/node_modules/nanoid/",\
         "packageDependencies": [\
-          ["nanoid", "npm:3.3.12"]\
+          ["nanoid", "npm:3.3.14"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1224,10 +1224,10 @@ const RAW_RUNTIME_STATE =
           ["node-gyp", "npm:13.0.0"],\
           ["nopt", "npm:10.0.1"],\
           ["proc-log", "npm:7.0.0"],\
-          ["semver", "npm:7.8.4"],\
+          ["semver", "npm:7.8.5"],\
           ["tar", "npm:7.5.16"],\
           ["tinyglobby", "npm:0.2.17"],\
-          ["undici", "npm:6.26.0"],\
+          ["undici", "npm:6.27.0"],\
           ["which", "npm:7.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -1351,7 +1351,7 @@ const RAW_RUNTIME_STATE =
       ["npm:8.5.15", {\
         "packageLocation": "./.yarn/cache/postcss-npm-8.5.15-8e6eef9b78-d02ad19eb1.zip/node_modules/postcss/",\
         "packageDependencies": [\
-          ["nanoid", "npm:3.3.12"],\
+          ["nanoid", "npm:3.3.14"],\
           ["picocolors", "npm:1.1.1"],\
           ["postcss", "npm:8.5.15"],\
           ["source-map-js", "npm:1.2.1"]\
@@ -1404,10 +1404,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["semver", [\
-      ["npm:7.8.4", {\
-        "packageLocation": "./.yarn/cache/semver-npm-7.8.4-9c59dc7144-a9c139031d.zip/node_modules/semver/",\
+      ["npm:7.8.5", {\
+        "packageLocation": "./.yarn/cache/semver-npm-7.8.5-785968bbf9-9b01d2ff11.zip/node_modules/semver/",\
         "packageDependencies": [\
-          ["semver", "npm:7.8.4"]\
+          ["semver", "npm:7.8.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1591,10 +1591,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["undici", [\
-      ["npm:6.26.0", {\
-        "packageLocation": "./.yarn/cache/undici-npm-6.26.0-aa9f162436-a1715ee430.zip/node_modules/undici/",\
+      ["npm:6.27.0", {\
+        "packageLocation": "./.yarn/cache/undici-npm-6.27.0-00a86409ac-30c18cdb23.zip/node_modules/undici/",\
         "packageDependencies": [\
-          ["undici", "npm:6.26.0"]\
+          ["undici", "npm:6.27.0"]\
         ],\
         "linkType": "HARD"\
       }]\
