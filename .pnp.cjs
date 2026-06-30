@@ -30,7 +30,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:3.0.1"],\
           ["@types/node", "npm:24.13.2"],\
-          ["@vercel/ncc", "npm:0.44.0"],\
+          ["@vercel/ncc", "npm:0.44.1"],\
           ["central-portal-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.17.0"],\
@@ -502,10 +502,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@vercel/ncc", [\
-      ["npm:0.44.0", {\
-        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.44.0-96acb033db-6a2a53b5df.zip/node_modules/@vercel/ncc/",\
+      ["npm:0.44.1", {\
+        "packageLocation": "./.yarn/cache/@vercel-ncc-npm-0.44.1-60e1c067fa-c362588870.zip/node_modules/@vercel/ncc/",\
         "packageDependencies": [\
-          ["@vercel/ncc", "npm:0.44.0"],\
+          ["@vercel/ncc", "npm:0.44.1"],\
           ["node-gyp", "npm:13.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -708,7 +708,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@actions/core", "npm:3.0.1"],\
           ["@types/node", "npm:24.13.2"],\
-          ["@vercel/ncc", "npm:0.44.0"],\
+          ["@vercel/ncc", "npm:0.44.1"],\
           ["central-portal-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
           ["openapi-fetch", "npm:0.17.0"],\
