@@ -198,7 +198,7 @@ const RAW_RUNTIME_STATE =
           ["@emnapi/core", "npm:2.0.0-beta.2"],\
           ["@emnapi/runtime", "npm:2.0.0-beta.2"],\
           ["@napi-rs/wasm-runtime", "virtual:0b25f4df9272300fd266bd79ceb24ee4d955034cf031d73949758223c25cbea3ec465568e566f1f6a8eacf970ee31c1961504d06f5e86009ed6e612d37bcc6b0#npm:1.2.6"],\
-          ["@tybys/wasm-util", "npm:0.10.4"],\
+          ["@tybys/wasm-util", "npm:0.10.5"],\
           ["@types/emnapi__core", null],\
           ["@types/emnapi__runtime", null]\
         ],\
@@ -228,7 +228,7 @@ const RAW_RUNTIME_STATE =
           ["fast-deep-equal", "npm:3.1.3"],\
           ["json-schema-traverse", "npm:1.0.0"],\
           ["require-from-string", "npm:2.0.2"],\
-          ["uri-js-replace", "npm:1.0.2"]\
+          ["uri-js-replace", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -462,10 +462,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@tybys/wasm-util", [\
-      ["npm:0.10.4", {\
-        "packageLocation": "./.yarn/cache/@tybys-wasm-util-npm-0.10.4-5e98901564-da910a0439.zip/node_modules/@tybys/wasm-util/",\
+      ["npm:0.10.5", {\
+        "packageLocation": "./.yarn/cache/@tybys-wasm-util-npm-0.10.5-06fb949e8d-4dc0780653.zip/node_modules/@tybys/wasm-util/",\
         "packageDependencies": [\
-          ["@tybys/wasm-util", "npm:0.10.4"],\
+          ["@tybys/wasm-util", "npm:0.10.5"],\
           ["tslib", "npm:2.9.1"]\
         ],\
         "linkType": "HARD"\
@@ -1236,7 +1236,7 @@ const RAW_RUNTIME_STATE =
           ["semver", "npm:7.8.6"],\
           ["tar", "npm:7.5.23"],\
           ["tinyglobby", "npm:0.2.17"],\
-          ["undici", "npm:8.12.4"],\
+          ["undici", "npm:8.13.1"],\
           ["which", "npm:7.0.0"]\
         ],\
         "linkType": "HARD"\
@@ -1363,7 +1363,7 @@ const RAW_RUNTIME_STATE =
           ["nanoid", "npm:3.3.20"],\
           ["picocolors", "npm:1.1.1"],\
           ["postcss", "npm:8.5.33"],\
-          ["source-map-js", "npm:1.2.2"]\
+          ["source-map-js", "npm:1.2.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1432,10 +1432,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["source-map-js", [\
-      ["npm:1.2.2", {\
-        "packageLocation": "./.yarn/cache/source-map-js-npm-1.2.2-d40ce9a415-4807c894bb.zip/node_modules/source-map-js/",\
+      ["npm:1.2.4", {\
+        "packageLocation": "./.yarn/cache/source-map-js-npm-1.2.4-20cfa326ee-65ac88fed0.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
-          ["source-map-js", "npm:1.2.2"]\
+          ["source-map-js", "npm:1.2.4"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1608,10 +1608,10 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "HARD"\
       }],\
-      ["npm:8.12.4", {\
-        "packageLocation": "./.yarn/cache/undici-npm-8.12.4-5db4c3e537-f99eb6c235.zip/node_modules/undici/",\
+      ["npm:8.13.1", {\
+        "packageLocation": "./.yarn/cache/undici-npm-8.13.1-22f480249b-6409e6a4ee.zip/node_modules/undici/",\
         "packageDependencies": [\
-          ["undici", "npm:8.12.4"]\
+          ["undici", "npm:8.13.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1626,10 +1626,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["uri-js-replace", [\
-      ["npm:1.0.2", {\
-        "packageLocation": "./.yarn/cache/uri-js-replace-npm-1.0.2-27500f0e3f-a5d214cb60.zip/node_modules/uri-js-replace/",\
+      ["npm:1.0.3", {\
+        "packageLocation": "./.yarn/cache/uri-js-replace-npm-1.0.3-76a026dd73-986ef4ea87.zip/node_modules/uri-js-replace/",\
         "packageDependencies": [\
-          ["uri-js-replace", "npm:1.0.2"]\
+          ["uri-js-replace", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
