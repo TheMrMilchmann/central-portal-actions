@@ -29,7 +29,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@actions/core", "npm:3.0.1"],\
-          ["@types/node", "npm:24.19.2"],\
+          ["@types/node", "npm:24.19.4"],\
           ["@vercel/ncc", "npm:0.45.0"],\
           ["central-portal-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
@@ -501,10 +501,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@types/node", [\
-      ["npm:24.19.2", {\
-        "packageLocation": "./.yarn/cache/@types-node-npm-24.19.2-57343a6385-5bc31df093.zip/node_modules/@types/node/",\
+      ["npm:24.19.4", {\
+        "packageLocation": "./.yarn/cache/@types-node-npm-24.19.4-812026abd7-90981db59d.zip/node_modules/@types/node/",\
         "packageDependencies": [\
-          ["@types/node", "npm:24.19.2"],\
+          ["@types/node", "npm:24.19.4"],\
           ["undici-types", "npm:7.24.6"]\
         ],\
         "linkType": "HARD"\
@@ -716,7 +716,7 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["@actions/core", "npm:3.0.1"],\
-          ["@types/node", "npm:24.19.2"],\
+          ["@types/node", "npm:24.19.4"],\
           ["@vercel/ncc", "npm:0.45.0"],\
           ["central-portal-actions", "workspace:."],\
           ["node-fetch", "npm:3.3.2"],\
@@ -1537,7 +1537,7 @@ const RAW_RUNTIME_STATE =
           ["@tsconfig/node12", "npm:1.0.11"],\
           ["@tsconfig/node14", "npm:1.0.3"],\
           ["@tsconfig/node16", "npm:1.0.4"],\
-          ["@types/node", "npm:24.19.2"],\
+          ["@types/node", "npm:24.19.4"],\
           ["@types/swc__core", null],\
           ["@types/swc__wasm", null],\
           ["@types/typescript", null],\
@@ -1657,7 +1657,7 @@ const RAW_RUNTIME_STATE =
           ["@types/esbuild", null],\
           ["@types/jiti", null],\
           ["@types/less", null],\
-          ["@types/node", "npm:24.19.2"],\
+          ["@types/node", "npm:24.19.4"],\
           ["@types/sass", null],\
           ["@types/sass-embedded", null],\
           ["@types/stylus", null],\
@@ -1729,7 +1729,7 @@ const RAW_RUNTIME_STATE =
           ["@types/edge-runtime__vm", null],\
           ["@types/happy-dom", null],\
           ["@types/jsdom", null],\
-          ["@types/node", "npm:24.19.2"],\
+          ["@types/node", "npm:24.19.4"],\
           ["@types/opentelemetry__api", null],\
           ["@types/vite", null],\
           ["@types/vitest__browser-playwright", null],\
